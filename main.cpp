@@ -13,9 +13,9 @@ public:
 // list with 3 nodes
 int main()
 {
-    Node* head = NULL;
-    Node* second = NULL;
-    Node* third = NULL;
+    Node* head = nullptr;
+    Node* second = nullptr;
+    Node* third = nullptr;
 
     // allocate 3 nodes in the heap
     head = new Node();
@@ -29,7 +29,7 @@ int main()
         |			 |			 |
         |			 |			 |
     +---+-----+	 +----+----+	 +----+----+
-    | # | # |	 | # | # |	 | # | # |
+    | # | # |	 | # | # |	     | # | # |
     +---+-----+	 +----+----+	 +----+----+
 
 # represents any random value.
@@ -96,4 +96,4 @@ anything yet */
     return 0;
 }
 
-// This code is contributed by rathbhupendra
+
