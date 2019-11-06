@@ -13,7 +13,6 @@
   <component name="ChangeListManager">
     <list default="true" id="75b15269-f61e-4cba-a7df-0fc4ecc24755" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -33,6 +32,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -62,6 +62,7 @@
       <updated>1571886977540</updated>
       <workItem from="1571886978816" duration="978000" />
       <workItem from="1572996511221" duration="2000" />
+      <workItem from="1573012650959" duration="1492000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1571887032612</created>
@@ -77,7 +78,28 @@
       <option name="project" value="LOCAL" />
       <updated>1571887151536</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="sparse matrix">
+      <created>1573012685057</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1573012685057</updated>
+    </task>
+    <task id="LOCAL-00004" summary="sparse matrix">
+      <created>1573012779422</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1573012779422</updated>
+    </task>
+    <task id="LOCAL-00005" summary="sparse matrix">
+      <created>1573012881724</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1573012881724</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -97,6 +119,7 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <MESSAGE value="initial commit" />
     <MESSAGE value="NULL to nullptr" />
-    <option name="LAST_COMMIT_MESSAGE" value="NULL to nullptr" />
+    <MESSAGE value="sparse matrix" />
+    <option name="LAST_COMMIT_MESSAGE" value="sparse matrix" />
   </component>
 </project>
