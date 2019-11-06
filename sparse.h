@@ -7,6 +7,9 @@
 
 
 class sparse {
+private:
+    int m,n,
+public:
 
 };
 
