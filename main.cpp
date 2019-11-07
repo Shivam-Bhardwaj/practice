@@ -5,7 +5,9 @@ using namespace std;
 
 
 int main(){
-
-    cout << "exp";
+    int i = 0;
+    int* ptr = &i;
+    cout << sizeof(ptr);
     return 0;
+    ''
 }

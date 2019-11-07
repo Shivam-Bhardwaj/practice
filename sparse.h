@@ -8,7 +8,7 @@
 
 class sparse {
 private:
-    int m,n,
+    int m,n;
 public:
 
 };
