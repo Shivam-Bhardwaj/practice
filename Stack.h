@@ -22,7 +22,9 @@ public:
         top = -1;
         st = new T[size];
     }
-
+    void push(T x);
+    void pop();
+    void Display();
 };
 
 
