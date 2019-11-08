@@ -3,4 +3,4 @@ project(cpp_practice)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(cpp_practice main.cpp sparse.cpp sparse.h Elements.cpp Elements.h Stack.cpp Stack.h)
+add_executable(cpp_practice main.cpp Stack.cpp Stack.h)

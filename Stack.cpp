@@ -7,19 +7,20 @@
 using namespace std;
 template <class T>
 void Stack<T>::Display() {
-    if(top == -1) return;
+    if(top == -1) { cout<<"empty stack\n"; return;}
 
     int temp = top;
     while(temp>-1){
-        temp--;
-        cout<<st[temp]<<" ";
+//        temp--;
+        cout<<st[temp--]<<" ";
     }
+    return;
 }
 
 template <class T>
 void Stack<T>::push(T x) {
-    if(top == size) {
-        cout <<"Stack full";
+    if(top == size-1) {
+        cout <<"\nStack full can't add "<< x<<endl;
         return;
     }
 
@@ -28,5 +29,5 @@ void Stack<T>::push(T x) {
 
 template <class T>
 void Stack<T>::pop() {
-    cout << "removing" << st[top--];
+    cout << "removing " << st[top--]<<endl;
 }
