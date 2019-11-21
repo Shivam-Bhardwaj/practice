@@ -11,7 +11,8 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="75b15269-f61e-4cba-a7df-0fc4ecc24755" name="Default Changelist" comment="">
+    <list default="true" id="75b15269-f61e-4cba-a7df-0fc4ecc24755" name="Default Changelist" comment="permutation of a string">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -68,7 +69,7 @@
       <workItem from="1573012650959" duration="1528000" />
       <workItem from="1573092066673" duration="1529000" />
       <workItem from="1573171002263" duration="4034000" />
-      <workItem from="1574112396587" duration="243000" />
+      <workItem from="1574112396587" duration="3823000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1571887032612</created>
@@ -133,7 +134,14 @@
       <option name="project" value="LOCAL" />
       <updated>1573173877630</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="permutation of a string">
+      <created>1574112665417</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1574112665417</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -158,6 +166,7 @@
     <MESSAGE value="NULL to nullptr" />
     <MESSAGE value="sparse matrix" />
     <MESSAGE value="Stack using arrays" />
-    <option name="LAST_COMMIT_MESSAGE" value="Stack using arrays" />
+    <MESSAGE value="permutation of a string" />
+    <option name="LAST_COMMIT_MESSAGE" value="permutation of a string" />
   </component>
 </project>

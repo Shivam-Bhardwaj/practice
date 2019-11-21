@@ -1,7 +1,9 @@
 #include "iostream"
 using namespace std;
 
-bool isPerm(){
+bool isPerm(string S1, string S2){
+    if(S1.length()!=S2.length()) return false;
+
 
 }
 
