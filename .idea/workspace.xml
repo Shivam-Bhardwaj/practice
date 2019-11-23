@@ -12,8 +12,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="75b15269-f61e-4cba-a7df-0fc4ecc24755" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/one_away.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/one_away.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cpp_files/1.6_string_compression.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/one_away.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/cpp_files/one_away.cpp" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,6 +30,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1SdIJz5CxpnBbo9ZGmLahzVgMkl" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -72,7 +76,7 @@
       <workItem from="1574112396587" duration="3823000" />
       <workItem from="1574471886600" duration="2284000" />
       <workItem from="1574495476954" duration="4537000" />
-      <workItem from="1574543240949" duration="2585000" />
+      <workItem from="1574543240949" duration="2837000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1571887032612</created>
@@ -172,7 +176,21 @@
       <option name="project" value="LOCAL" />
       <updated>1574503070826</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="one_away finished">
+      <created>1574545837016</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1574545837016</updated>
+    </task>
+    <task id="LOCAL-00016" summary="one_away finished">
+      <created>1574545974437</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1574545974437</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -202,6 +220,7 @@
     <MESSAGE value="1.5 One Away" />
     <MESSAGE value="Project structure redefined" />
     <MESSAGE value="one_away" />
-    <option name="LAST_COMMIT_MESSAGE" value="one_away" />
+    <MESSAGE value="one_away finished" />
+    <option name="LAST_COMMIT_MESSAGE" value="one_away finished" />
   </component>
 </project>
