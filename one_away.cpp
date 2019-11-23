@@ -66,6 +66,6 @@ bool one_replace(string s1, string s2) {
 
 int main() {
     string s1 = "23";
-    string s2 = "2";
+    string s2 = "32";
     cout << one_away(s1, s2);
 }
