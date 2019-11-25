@@ -12,9 +12,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="75b15269-f61e-4cba-a7df-0fc4ecc24755" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/cpp_files/1.6_string_compression.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/one_away.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/cpp_files/one_away.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cpp_files/1.6_string_compression.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/cpp_files/1.6_string_compression.cpp" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -37,7 +36,13 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/cpp_files" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -76,7 +81,7 @@
       <workItem from="1574112396587" duration="3823000" />
       <workItem from="1574471886600" duration="2284000" />
       <workItem from="1574495476954" duration="4537000" />
-      <workItem from="1574543240949" duration="2837000" />
+      <workItem from="1574543240949" duration="8263000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1571887032612</created>
@@ -190,7 +195,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574545974437</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="String compression added">
+      <created>1574546093301</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1574546093301</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -221,6 +233,7 @@
     <MESSAGE value="Project structure redefined" />
     <MESSAGE value="one_away" />
     <MESSAGE value="one_away finished" />
-    <option name="LAST_COMMIT_MESSAGE" value="one_away finished" />
+    <MESSAGE value="String compression added" />
+    <option name="LAST_COMMIT_MESSAGE" value="String compression added" />
   </component>
 </project>
