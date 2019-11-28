@@ -4,4 +4,4 @@ project(cpp_practice)
 set(CMAKE_CXX_STANDARD 11)
 
 #add_executable(run exp.cpp)
-add_executable(run cpp_files/1.6_string_compression.cpp)
+add_executable(run "1.7 Rotate Matrix.cpp")

@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/shivam/workspace/practice/1.7 Rotate Matrix.cpp
+iostream
+/home/shivam/workspace/practice/iostream
+bits/stdc++.h
+-
+

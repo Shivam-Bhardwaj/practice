@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/run.dir/1.7_Rotate_Matrix.cpp.o  -o run 
