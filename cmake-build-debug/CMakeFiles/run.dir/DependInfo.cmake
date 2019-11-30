@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/shivam/workspace/practice/1.7 Rotate Matrix.cpp" "/home/shivam/workspace/practice/cmake-build-debug/CMakeFiles/run.dir/1.7_Rotate_Matrix.cpp.o"
+  "/home/shivam/workspace/practice/1.8 Zero Matrix.cpp" "/home/shivam/workspace/practice/cmake-build-debug/CMakeFiles/run.dir/1.8_Zero_Matrix.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
