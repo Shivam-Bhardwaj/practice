@@ -4,4 +4,4 @@ project(cpp_practice)
 set(CMAKE_CXX_STANDARD 11)
 
 #add_executable(run exp.cpp)
-add_executable(run "1.8 Zero Matrix.cpp")
+add_executable(run LinkedList.cpp)

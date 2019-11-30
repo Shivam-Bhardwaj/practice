@@ -1,1 +1,1 @@
-/usr/bin/c++  -g   CMakeFiles/run.dir/1.8_Zero_Matrix.cpp.o  -o run 
+/usr/bin/c++  -g   CMakeFiles/run.dir/LinkedList.cpp.o  -o run 

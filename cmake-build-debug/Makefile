@@ -123,32 +123,32 @@ run/fast:
 	$(MAKE) -f CMakeFiles/run.dir/build.make CMakeFiles/run.dir/build
 .PHONY : run/fast
 
-1.8_Zero_Matrix.o: 1.8_Zero_Matrix.cpp.o
+LinkedList.o: LinkedList.cpp.o
 
-.PHONY : 1.8_Zero_Matrix.o
+.PHONY : LinkedList.o
 
 # target to build an object file
-1.8_Zero_Matrix.cpp.o:
-	$(MAKE) -f CMakeFiles/run.dir/build.make CMakeFiles/run.dir/1.8_Zero_Matrix.cpp.o
-.PHONY : 1.8_Zero_Matrix.cpp.o
+LinkedList.cpp.o:
+	$(MAKE) -f CMakeFiles/run.dir/build.make CMakeFiles/run.dir/LinkedList.cpp.o
+.PHONY : LinkedList.cpp.o
 
-1.8_Zero_Matrix.i: 1.8_Zero_Matrix.cpp.i
+LinkedList.i: LinkedList.cpp.i
 
-.PHONY : 1.8_Zero_Matrix.i
+.PHONY : LinkedList.i
 
 # target to preprocess a source file
-1.8_Zero_Matrix.cpp.i:
-	$(MAKE) -f CMakeFiles/run.dir/build.make CMakeFiles/run.dir/1.8_Zero_Matrix.cpp.i
-.PHONY : 1.8_Zero_Matrix.cpp.i
+LinkedList.cpp.i:
+	$(MAKE) -f CMakeFiles/run.dir/build.make CMakeFiles/run.dir/LinkedList.cpp.i
+.PHONY : LinkedList.cpp.i
 
-1.8_Zero_Matrix.s: 1.8_Zero_Matrix.cpp.s
+LinkedList.s: LinkedList.cpp.s
 
-.PHONY : 1.8_Zero_Matrix.s
+.PHONY : LinkedList.s
 
 # target to generate assembly for a file
-1.8_Zero_Matrix.cpp.s:
-	$(MAKE) -f CMakeFiles/run.dir/build.make CMakeFiles/run.dir/1.8_Zero_Matrix.cpp.s
-.PHONY : 1.8_Zero_Matrix.cpp.s
+LinkedList.cpp.s:
+	$(MAKE) -f CMakeFiles/run.dir/build.make CMakeFiles/run.dir/LinkedList.cpp.s
+.PHONY : LinkedList.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... run"
 	@echo "... edit_cache"
-	@echo "... 1.8_Zero_Matrix.o"
-	@echo "... 1.8_Zero_Matrix.i"
-	@echo "... 1.8_Zero_Matrix.s"
+	@echo "... LinkedList.o"
+	@echo "... LinkedList.i"
+	@echo "... LinkedList.s"
 .PHONY : help
 
 
