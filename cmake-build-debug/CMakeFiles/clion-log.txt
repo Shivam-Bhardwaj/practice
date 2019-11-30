@@ -1,4 +1,4 @@
-/home/shivam/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/192.7142.39/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/shivam/workspace/practice
+/home/shivam/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/193.5233.103/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/shivam/workspace/practice
 -- Configuring done
 -- Generating done
 -- Build files have been written to: /home/shivam/workspace/practice/cmake-build-debug

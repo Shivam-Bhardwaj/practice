@@ -12,11 +12,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="75b15269-f61e-4cba-a7df-0fc4ecc24755" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/1.7 Rotate Matrix.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.7 Rotate Matrix.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/1.7 Rotate Matrix.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/run.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/run.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/run" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/run" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,10 +38,15 @@
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="/usr/bin/gnome-terminal" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
@@ -45,19 +55,7 @@
       <recent name="$PROJECT_DIR$/cpp_files" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="CMake Application.run">
+  <component name="RunManager" selected="CMake Application.DEBUG">
     <configuration name="DEBUG" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="cpp_practice" TARGET_NAME="run" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="cpp_practice" RUN_TARGET_NAME="run">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -72,6 +70,18 @@
       <item itemvalue="CMake Application.run" />
       <item itemvalue="CMake Application.DEBUG" />
     </list>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -94,6 +104,9 @@
       <workItem from="1574543240949" duration="8263000" />
       <workItem from="1574646638529" duration="6192000" />
       <workItem from="1574717927160" duration="603000" />
+      <workItem from="1574940146335" duration="109000" />
+      <workItem from="1575011580677" duration="602000" />
+      <workItem from="1575063941128" duration="2660000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1571887032612</created>
@@ -263,6 +276,44 @@
     <MESSAGE value="String compression" />
     <option name="LAST_COMMIT_MESSAGE" value="String compression" />
   </component>
+  <component name="WindowStateProjectService">
+    <state width="1807" height="277" key="GridCell.Tab.0.bottom" timestamp="1575076807155">
+      <screen x="67" y="27" width="1853" height="1052" />
+    </state>
+    <state width="1807" height="277" key="GridCell.Tab.0.bottom/67.27.1853.1052@67.27.1853.1052" timestamp="1575076807155" />
+    <state width="1807" height="277" key="GridCell.Tab.0.center" timestamp="1575076807155">
+      <screen x="67" y="27" width="1853" height="1052" />
+    </state>
+    <state width="1807" height="277" key="GridCell.Tab.0.center/67.27.1853.1052@67.27.1853.1052" timestamp="1575076807155" />
+    <state width="1807" height="277" key="GridCell.Tab.0.left" timestamp="1575076807154">
+      <screen x="67" y="27" width="1853" height="1052" />
+    </state>
+    <state width="1807" height="277" key="GridCell.Tab.0.left/67.27.1853.1052@67.27.1853.1052" timestamp="1575076807154" />
+    <state width="1807" height="277" key="GridCell.Tab.0.right" timestamp="1575076807155">
+      <screen x="67" y="27" width="1853" height="1052" />
+    </state>
+    <state width="1807" height="277" key="GridCell.Tab.0.right/67.27.1853.1052@67.27.1853.1052" timestamp="1575076807155" />
+    <state width="1807" height="343" key="GridCell.Tab.1.bottom" timestamp="1575076805892">
+      <screen x="67" y="27" width="1853" height="1052" />
+    </state>
+    <state width="1807" height="343" key="GridCell.Tab.1.bottom/67.27.1853.1052@67.27.1853.1052" timestamp="1575076805892" />
+    <state width="1807" height="343" key="GridCell.Tab.1.center" timestamp="1575076805892">
+      <screen x="67" y="27" width="1853" height="1052" />
+    </state>
+    <state width="1807" height="343" key="GridCell.Tab.1.center/67.27.1853.1052@67.27.1853.1052" timestamp="1575076805892" />
+    <state width="1807" height="343" key="GridCell.Tab.1.left" timestamp="1575076805891">
+      <screen x="67" y="27" width="1853" height="1052" />
+    </state>
+    <state width="1807" height="343" key="GridCell.Tab.1.left/67.27.1853.1052@67.27.1853.1052" timestamp="1575076805891" />
+    <state width="1807" height="343" key="GridCell.Tab.1.right" timestamp="1575076805892">
+      <screen x="67" y="27" width="1853" height="1052" />
+    </state>
+    <state width="1807" height="343" key="GridCell.Tab.1.right/67.27.1853.1052@67.27.1853.1052" timestamp="1575076805892" />
+    <state x="653" y="366" key="com.intellij.ide.util.TipDialog" timestamp="1575063941446">
+      <screen x="67" y="27" width="1853" height="1052" />
+    </state>
+    <state x="653" y="366" key="com.intellij.ide.util.TipDialog/67.27.1853.1052@67.27.1853.1052" timestamp="1575063941446" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -270,6 +321,11 @@
           <url>file://$PROJECT_DIR$/cpp_files/1.6_string_compression.cpp</url>
           <line>25</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/1.7 Rotate Matrix.cpp</url>
+          <line>53</line>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
