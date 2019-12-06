@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/run.dir/cpp_files/insertion_sort.cpp.o"
-  "CMakeFiles/run.dir/selection_sort.cpp.o"
+  "CMakeFiles/run.dir/find_three_largest.cpp.o"
+  "CMakeFiles/run.dir/isPalindrome.cpp.o"
   "run"
   "run.pdb"
 )

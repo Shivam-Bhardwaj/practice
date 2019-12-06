@@ -15,13 +15,15 @@ void swapp(int *a, int *b) {
     return;
 }
 
-vector<int> insertionSort(vector<int> array) {
-    for (int i = 1; i < array.size(); ++i) {
-        int j = i;
-        while (j > 0 && array[j] < array[j - 1]) {
-            swapp(&array[j], &array[j - 1]);
-            j--;
+vector<int> selectionSort(vector<int> array) {
+    for (int i = 0; i < array.size(); ++i) {
+        int min = i;
+        for (int j = i; j < array.size(); ++j) {
+            if(array[j]<array[min]){
+                min = j;
+            }
         }
+        if(min!=i) swapp(&array[min], &array[i]);
     }
     return array;
 }
@@ -30,7 +32,7 @@ int main(void) {
 //    cout << "here";
 //    vector<int> expected = {1, 2};
 //    assert(bubbleSort({1, 2}) == expected);
-    vector<int> g1(insertionSort({28, 3, 4}));
+    vector<int> g1(selectionSort({28, 3, 4}));
 
     for (auto i = g1.begin(); i != g1.end(); ++i)
         cout << *i << " ";

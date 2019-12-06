@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/shivam/workspace/practice/cpp_files/insertion sort.cpp" "/home/shivam/workspace/practice/cmake-build-debug/CMakeFiles/run.dir/cpp_files/insertion_sort.cpp.o"
-  "/home/shivam/workspace/practice/selection_sort.cpp" "/home/shivam/workspace/practice/cmake-build-debug/CMakeFiles/run.dir/selection_sort.cpp.o"
+  "/home/shivam/workspace/practice/find_three_largest.cpp" "/home/shivam/workspace/practice/cmake-build-debug/CMakeFiles/run.dir/find_three_largest.cpp.o"
+  "/home/shivam/workspace/practice/isPalindrome.cpp" "/home/shivam/workspace/practice/cmake-build-debug/CMakeFiles/run.dir/isPalindrome.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

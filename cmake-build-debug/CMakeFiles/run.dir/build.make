@@ -57,42 +57,42 @@ include CMakeFiles/run.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/run.dir/flags.make
 
-CMakeFiles/run.dir/cpp_files/insertion_sort.cpp.o: CMakeFiles/run.dir/flags.make
-CMakeFiles/run.dir/cpp_files/insertion_sort.cpp.o: ../cpp_files/insertion\ sort.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shivam/workspace/practice/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/run.dir/cpp_files/insertion_sort.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/run.dir/cpp_files/insertion_sort.cpp.o -c "/home/shivam/workspace/practice/cpp_files/insertion sort.cpp"
+CMakeFiles/run.dir/isPalindrome.cpp.o: CMakeFiles/run.dir/flags.make
+CMakeFiles/run.dir/isPalindrome.cpp.o: ../isPalindrome.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shivam/workspace/practice/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/run.dir/isPalindrome.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/run.dir/isPalindrome.cpp.o -c /home/shivam/workspace/practice/isPalindrome.cpp
 
-CMakeFiles/run.dir/cpp_files/insertion_sort.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/run.dir/cpp_files/insertion_sort.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/shivam/workspace/practice/cpp_files/insertion sort.cpp" > CMakeFiles/run.dir/cpp_files/insertion_sort.cpp.i
+CMakeFiles/run.dir/isPalindrome.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/run.dir/isPalindrome.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shivam/workspace/practice/isPalindrome.cpp > CMakeFiles/run.dir/isPalindrome.cpp.i
 
-CMakeFiles/run.dir/cpp_files/insertion_sort.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/run.dir/cpp_files/insertion_sort.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/shivam/workspace/practice/cpp_files/insertion sort.cpp" -o CMakeFiles/run.dir/cpp_files/insertion_sort.cpp.s
+CMakeFiles/run.dir/isPalindrome.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/run.dir/isPalindrome.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shivam/workspace/practice/isPalindrome.cpp -o CMakeFiles/run.dir/isPalindrome.cpp.s
 
-CMakeFiles/run.dir/selection_sort.cpp.o: CMakeFiles/run.dir/flags.make
-CMakeFiles/run.dir/selection_sort.cpp.o: ../selection_sort.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shivam/workspace/practice/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/run.dir/selection_sort.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/run.dir/selection_sort.cpp.o -c /home/shivam/workspace/practice/selection_sort.cpp
+CMakeFiles/run.dir/find_three_largest.cpp.o: CMakeFiles/run.dir/flags.make
+CMakeFiles/run.dir/find_three_largest.cpp.o: ../find_three_largest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shivam/workspace/practice/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/run.dir/find_three_largest.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/run.dir/find_three_largest.cpp.o -c /home/shivam/workspace/practice/find_three_largest.cpp
 
-CMakeFiles/run.dir/selection_sort.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/run.dir/selection_sort.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shivam/workspace/practice/selection_sort.cpp > CMakeFiles/run.dir/selection_sort.cpp.i
+CMakeFiles/run.dir/find_three_largest.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/run.dir/find_three_largest.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shivam/workspace/practice/find_three_largest.cpp > CMakeFiles/run.dir/find_three_largest.cpp.i
 
-CMakeFiles/run.dir/selection_sort.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/run.dir/selection_sort.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shivam/workspace/practice/selection_sort.cpp -o CMakeFiles/run.dir/selection_sort.cpp.s
+CMakeFiles/run.dir/find_three_largest.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/run.dir/find_three_largest.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shivam/workspace/practice/find_three_largest.cpp -o CMakeFiles/run.dir/find_three_largest.cpp.s
 
 # Object files for target run
 run_OBJECTS = \
-"CMakeFiles/run.dir/cpp_files/insertion_sort.cpp.o" \
-"CMakeFiles/run.dir/selection_sort.cpp.o"
+"CMakeFiles/run.dir/isPalindrome.cpp.o" \
+"CMakeFiles/run.dir/find_three_largest.cpp.o"
 
 # External object files for target run
 run_EXTERNAL_OBJECTS =
 
-run: CMakeFiles/run.dir/cpp_files/insertion_sort.cpp.o
-run: CMakeFiles/run.dir/selection_sort.cpp.o
+run: CMakeFiles/run.dir/isPalindrome.cpp.o
+run: CMakeFiles/run.dir/find_three_largest.cpp.o
 run: CMakeFiles/run.dir/build.make
 run: CMakeFiles/run.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/shivam/workspace/practice/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable run"

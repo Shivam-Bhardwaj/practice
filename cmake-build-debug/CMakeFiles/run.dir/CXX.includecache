@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/shivam/workspace/practice/insertion sort.cpp
+/home/shivam/workspace/practice/isPalindrome.cpp
 iostream
 /home/shivam/workspace/practice/iostream
 bits/stdc++.h

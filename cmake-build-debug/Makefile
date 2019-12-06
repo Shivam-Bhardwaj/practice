@@ -123,59 +123,59 @@ run/fast:
 	$(MAKE) -f CMakeFiles/run.dir/build.make CMakeFiles/run.dir/build
 .PHONY : run/fast
 
-cpp_files/insertion_sort.o: cpp_files/insertion_sort.cpp.o
+find_three_largest.o: find_three_largest.cpp.o
 
-.PHONY : cpp_files/insertion_sort.o
-
-# target to build an object file
-cpp_files/insertion_sort.cpp.o:
-	$(MAKE) -f CMakeFiles/run.dir/build.make CMakeFiles/run.dir/cpp_files/insertion_sort.cpp.o
-.PHONY : cpp_files/insertion_sort.cpp.o
-
-cpp_files/insertion_sort.i: cpp_files/insertion_sort.cpp.i
-
-.PHONY : cpp_files/insertion_sort.i
-
-# target to preprocess a source file
-cpp_files/insertion_sort.cpp.i:
-	$(MAKE) -f CMakeFiles/run.dir/build.make CMakeFiles/run.dir/cpp_files/insertion_sort.cpp.i
-.PHONY : cpp_files/insertion_sort.cpp.i
-
-cpp_files/insertion_sort.s: cpp_files/insertion_sort.cpp.s
-
-.PHONY : cpp_files/insertion_sort.s
-
-# target to generate assembly for a file
-cpp_files/insertion_sort.cpp.s:
-	$(MAKE) -f CMakeFiles/run.dir/build.make CMakeFiles/run.dir/cpp_files/insertion_sort.cpp.s
-.PHONY : cpp_files/insertion_sort.cpp.s
-
-selection_sort.o: selection_sort.cpp.o
-
-.PHONY : selection_sort.o
+.PHONY : find_three_largest.o
 
 # target to build an object file
-selection_sort.cpp.o:
-	$(MAKE) -f CMakeFiles/run.dir/build.make CMakeFiles/run.dir/selection_sort.cpp.o
-.PHONY : selection_sort.cpp.o
+find_three_largest.cpp.o:
+	$(MAKE) -f CMakeFiles/run.dir/build.make CMakeFiles/run.dir/find_three_largest.cpp.o
+.PHONY : find_three_largest.cpp.o
 
-selection_sort.i: selection_sort.cpp.i
+find_three_largest.i: find_three_largest.cpp.i
 
-.PHONY : selection_sort.i
+.PHONY : find_three_largest.i
 
 # target to preprocess a source file
-selection_sort.cpp.i:
-	$(MAKE) -f CMakeFiles/run.dir/build.make CMakeFiles/run.dir/selection_sort.cpp.i
-.PHONY : selection_sort.cpp.i
+find_three_largest.cpp.i:
+	$(MAKE) -f CMakeFiles/run.dir/build.make CMakeFiles/run.dir/find_three_largest.cpp.i
+.PHONY : find_three_largest.cpp.i
 
-selection_sort.s: selection_sort.cpp.s
+find_three_largest.s: find_three_largest.cpp.s
 
-.PHONY : selection_sort.s
+.PHONY : find_three_largest.s
 
 # target to generate assembly for a file
-selection_sort.cpp.s:
-	$(MAKE) -f CMakeFiles/run.dir/build.make CMakeFiles/run.dir/selection_sort.cpp.s
-.PHONY : selection_sort.cpp.s
+find_three_largest.cpp.s:
+	$(MAKE) -f CMakeFiles/run.dir/build.make CMakeFiles/run.dir/find_three_largest.cpp.s
+.PHONY : find_three_largest.cpp.s
+
+isPalindrome.o: isPalindrome.cpp.o
+
+.PHONY : isPalindrome.o
+
+# target to build an object file
+isPalindrome.cpp.o:
+	$(MAKE) -f CMakeFiles/run.dir/build.make CMakeFiles/run.dir/isPalindrome.cpp.o
+.PHONY : isPalindrome.cpp.o
+
+isPalindrome.i: isPalindrome.cpp.i
+
+.PHONY : isPalindrome.i
+
+# target to preprocess a source file
+isPalindrome.cpp.i:
+	$(MAKE) -f CMakeFiles/run.dir/build.make CMakeFiles/run.dir/isPalindrome.cpp.i
+.PHONY : isPalindrome.cpp.i
+
+isPalindrome.s: isPalindrome.cpp.s
+
+.PHONY : isPalindrome.s
+
+# target to generate assembly for a file
+isPalindrome.cpp.s:
+	$(MAKE) -f CMakeFiles/run.dir/build.make CMakeFiles/run.dir/isPalindrome.cpp.s
+.PHONY : isPalindrome.cpp.s
 
 # Help Target
 help:
@@ -186,12 +186,12 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... run"
 	@echo "... edit_cache"
-	@echo "... cpp_files/insertion_sort.o"
-	@echo "... cpp_files/insertion_sort.i"
-	@echo "... cpp_files/insertion_sort.s"
-	@echo "... selection_sort.o"
-	@echo "... selection_sort.i"
-	@echo "... selection_sort.s"
+	@echo "... find_three_largest.o"
+	@echo "... find_three_largest.i"
+	@echo "... find_three_largest.s"
+	@echo "... isPalindrome.o"
+	@echo "... isPalindrome.i"
+	@echo "... isPalindrome.s"
 .PHONY : help
 
 
