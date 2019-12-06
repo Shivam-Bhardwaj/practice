@@ -123,32 +123,59 @@ run/fast:
 	$(MAKE) -f CMakeFiles/run.dir/build.make CMakeFiles/run.dir/build
 .PHONY : run/fast
 
-cpp_files/bubble)sort.o: cpp_files/bubble)sort.cpp.o
+cpp_files/insertion_sort.o: cpp_files/insertion_sort.cpp.o
 
-.PHONY : cpp_files/bubble)sort.o
+.PHONY : cpp_files/insertion_sort.o
 
 # target to build an object file
-cpp_files/bubble)sort.cpp.o:
-	$(MAKE) -f CMakeFiles/run.dir/build.make "CMakeFiles/run.dir/cpp_files/bubble)sort.cpp.o"
-.PHONY : cpp_files/bubble)sort.cpp.o
+cpp_files/insertion_sort.cpp.o:
+	$(MAKE) -f CMakeFiles/run.dir/build.make CMakeFiles/run.dir/cpp_files/insertion_sort.cpp.o
+.PHONY : cpp_files/insertion_sort.cpp.o
 
-cpp_files/bubble)sort.i: cpp_files/bubble)sort.cpp.i
+cpp_files/insertion_sort.i: cpp_files/insertion_sort.cpp.i
 
-.PHONY : cpp_files/bubble)sort.i
+.PHONY : cpp_files/insertion_sort.i
 
 # target to preprocess a source file
-cpp_files/bubble)sort.cpp.i:
-	$(MAKE) -f CMakeFiles/run.dir/build.make "CMakeFiles/run.dir/cpp_files/bubble)sort.cpp.i"
-.PHONY : cpp_files/bubble)sort.cpp.i
+cpp_files/insertion_sort.cpp.i:
+	$(MAKE) -f CMakeFiles/run.dir/build.make CMakeFiles/run.dir/cpp_files/insertion_sort.cpp.i
+.PHONY : cpp_files/insertion_sort.cpp.i
 
-cpp_files/bubble)sort.s: cpp_files/bubble)sort.cpp.s
+cpp_files/insertion_sort.s: cpp_files/insertion_sort.cpp.s
 
-.PHONY : cpp_files/bubble)sort.s
+.PHONY : cpp_files/insertion_sort.s
 
 # target to generate assembly for a file
-cpp_files/bubble)sort.cpp.s:
-	$(MAKE) -f CMakeFiles/run.dir/build.make "CMakeFiles/run.dir/cpp_files/bubble)sort.cpp.s"
-.PHONY : cpp_files/bubble)sort.cpp.s
+cpp_files/insertion_sort.cpp.s:
+	$(MAKE) -f CMakeFiles/run.dir/build.make CMakeFiles/run.dir/cpp_files/insertion_sort.cpp.s
+.PHONY : cpp_files/insertion_sort.cpp.s
+
+selection_sort.o: selection_sort.cpp.o
+
+.PHONY : selection_sort.o
+
+# target to build an object file
+selection_sort.cpp.o:
+	$(MAKE) -f CMakeFiles/run.dir/build.make CMakeFiles/run.dir/selection_sort.cpp.o
+.PHONY : selection_sort.cpp.o
+
+selection_sort.i: selection_sort.cpp.i
+
+.PHONY : selection_sort.i
+
+# target to preprocess a source file
+selection_sort.cpp.i:
+	$(MAKE) -f CMakeFiles/run.dir/build.make CMakeFiles/run.dir/selection_sort.cpp.i
+.PHONY : selection_sort.cpp.i
+
+selection_sort.s: selection_sort.cpp.s
+
+.PHONY : selection_sort.s
+
+# target to generate assembly for a file
+selection_sort.cpp.s:
+	$(MAKE) -f CMakeFiles/run.dir/build.make CMakeFiles/run.dir/selection_sort.cpp.s
+.PHONY : selection_sort.cpp.s
 
 # Help Target
 help:
@@ -159,9 +186,12 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... run"
 	@echo "... edit_cache"
-	@echo "... cpp_files/bubble)sort.o"
-	@echo "... cpp_files/bubble)sort.i"
-	@echo "... cpp_files/bubble)sort.s"
+	@echo "... cpp_files/insertion_sort.o"
+	@echo "... cpp_files/insertion_sort.i"
+	@echo "... cpp_files/insertion_sort.s"
+	@echo "... selection_sort.o"
+	@echo "... selection_sort.i"
+	@echo "... selection_sort.s"
 .PHONY : help
 
 

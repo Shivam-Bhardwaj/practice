@@ -1,1 +1,1 @@
-/usr/bin/c++  -g   "CMakeFiles/run.dir/cpp_files/bubble)sort.cpp.o"  -o run 
+/usr/bin/c++  -g   CMakeFiles/run.dir/cpp_files/insertion_sort.cpp.o CMakeFiles/run.dir/selection_sort.cpp.o  -o run 

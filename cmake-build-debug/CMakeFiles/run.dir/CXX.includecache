@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/home/shivam/workspace/practice/cpp_files/bubble)sort.cpp
+/home/shivam/workspace/practice/insertion sort.cpp
 iostream
-/home/shivam/workspace/practice/cpp_files/iostream
+/home/shivam/workspace/practice/iostream
 bits/stdc++.h
 -
 

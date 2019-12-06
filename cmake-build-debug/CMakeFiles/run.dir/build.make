@@ -57,30 +57,45 @@ include CMakeFiles/run.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/run.dir/flags.make
 
-CMakeFiles/run.dir/cpp_files/bubble)sort.cpp.o: CMakeFiles/run.dir/flags.make
-CMakeFiles/run.dir/cpp_files/bubble)sort.cpp.o: ../cpp_files/bubble)sort.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shivam/workspace/practice/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/run.dir/cpp_files/bubble)sort.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o "CMakeFiles/run.dir/cpp_files/bubble)sort.cpp.o" -c "/home/shivam/workspace/practice/cpp_files/bubble)sort.cpp"
+CMakeFiles/run.dir/cpp_files/insertion_sort.cpp.o: CMakeFiles/run.dir/flags.make
+CMakeFiles/run.dir/cpp_files/insertion_sort.cpp.o: ../cpp_files/insertion\ sort.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shivam/workspace/practice/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/run.dir/cpp_files/insertion_sort.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/run.dir/cpp_files/insertion_sort.cpp.o -c "/home/shivam/workspace/practice/cpp_files/insertion sort.cpp"
 
-CMakeFiles/run.dir/cpp_files/bubble)sort.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/run.dir/cpp_files/bubble)sort.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/shivam/workspace/practice/cpp_files/bubble)sort.cpp" > "CMakeFiles/run.dir/cpp_files/bubble)sort.cpp.i"
+CMakeFiles/run.dir/cpp_files/insertion_sort.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/run.dir/cpp_files/insertion_sort.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/shivam/workspace/practice/cpp_files/insertion sort.cpp" > CMakeFiles/run.dir/cpp_files/insertion_sort.cpp.i
 
-CMakeFiles/run.dir/cpp_files/bubble)sort.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/run.dir/cpp_files/bubble)sort.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/shivam/workspace/practice/cpp_files/bubble)sort.cpp" -o "CMakeFiles/run.dir/cpp_files/bubble)sort.cpp.s"
+CMakeFiles/run.dir/cpp_files/insertion_sort.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/run.dir/cpp_files/insertion_sort.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/shivam/workspace/practice/cpp_files/insertion sort.cpp" -o CMakeFiles/run.dir/cpp_files/insertion_sort.cpp.s
+
+CMakeFiles/run.dir/selection_sort.cpp.o: CMakeFiles/run.dir/flags.make
+CMakeFiles/run.dir/selection_sort.cpp.o: ../selection_sort.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shivam/workspace/practice/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/run.dir/selection_sort.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/run.dir/selection_sort.cpp.o -c /home/shivam/workspace/practice/selection_sort.cpp
+
+CMakeFiles/run.dir/selection_sort.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/run.dir/selection_sort.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shivam/workspace/practice/selection_sort.cpp > CMakeFiles/run.dir/selection_sort.cpp.i
+
+CMakeFiles/run.dir/selection_sort.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/run.dir/selection_sort.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shivam/workspace/practice/selection_sort.cpp -o CMakeFiles/run.dir/selection_sort.cpp.s
 
 # Object files for target run
 run_OBJECTS = \
-"CMakeFiles/run.dir/cpp_files/bubble)sort.cpp.o"
+"CMakeFiles/run.dir/cpp_files/insertion_sort.cpp.o" \
+"CMakeFiles/run.dir/selection_sort.cpp.o"
 
 # External object files for target run
 run_EXTERNAL_OBJECTS =
 
-run: CMakeFiles/run.dir/cpp_files/bubble)sort.cpp.o
+run: CMakeFiles/run.dir/cpp_files/insertion_sort.cpp.o
+run: CMakeFiles/run.dir/selection_sort.cpp.o
 run: CMakeFiles/run.dir/build.make
 run: CMakeFiles/run.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/shivam/workspace/practice/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable run"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/shivam/workspace/practice/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable run"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/run.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

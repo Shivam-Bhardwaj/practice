@@ -4,4 +4,4 @@ project(cpp_practice)
 set(CMAKE_CXX_STANDARD 11)
 
 #add_executable(run exp.cpp)
-add_executable(run "cpp_files/bubble)sort.cpp")
+add_executable(run "cpp_files/insertion sort.cpp" selection_sort.cpp)
