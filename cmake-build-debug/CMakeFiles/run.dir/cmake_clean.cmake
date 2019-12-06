@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/run.dir/LinkedList.cpp.o"
+  "CMakeFiles/run.dir/cpp_files/bubble)sort.cpp.o"
   "run"
   "run.pdb"
 )

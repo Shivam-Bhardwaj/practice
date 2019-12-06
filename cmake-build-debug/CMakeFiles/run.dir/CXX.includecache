@@ -6,11 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/home/shivam/workspace/practice/1.8 Zero Matrix.cpp
+/home/shivam/workspace/practice/cpp_files/bubble)sort.cpp
 iostream
-/home/shivam/workspace/practice/iostream
+/home/shivam/workspace/practice/cpp_files/iostream
 bits/stdc++.h
 -
-vector
-/home/shivam/workspace/practice/vector
 

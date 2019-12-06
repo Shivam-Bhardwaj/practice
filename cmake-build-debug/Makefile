@@ -123,32 +123,32 @@ run/fast:
 	$(MAKE) -f CMakeFiles/run.dir/build.make CMakeFiles/run.dir/build
 .PHONY : run/fast
 
-LinkedList.o: LinkedList.cpp.o
+cpp_files/bubble)sort.o: cpp_files/bubble)sort.cpp.o
 
-.PHONY : LinkedList.o
+.PHONY : cpp_files/bubble)sort.o
 
 # target to build an object file
-LinkedList.cpp.o:
-	$(MAKE) -f CMakeFiles/run.dir/build.make CMakeFiles/run.dir/LinkedList.cpp.o
-.PHONY : LinkedList.cpp.o
+cpp_files/bubble)sort.cpp.o:
+	$(MAKE) -f CMakeFiles/run.dir/build.make "CMakeFiles/run.dir/cpp_files/bubble)sort.cpp.o"
+.PHONY : cpp_files/bubble)sort.cpp.o
 
-LinkedList.i: LinkedList.cpp.i
+cpp_files/bubble)sort.i: cpp_files/bubble)sort.cpp.i
 
-.PHONY : LinkedList.i
+.PHONY : cpp_files/bubble)sort.i
 
 # target to preprocess a source file
-LinkedList.cpp.i:
-	$(MAKE) -f CMakeFiles/run.dir/build.make CMakeFiles/run.dir/LinkedList.cpp.i
-.PHONY : LinkedList.cpp.i
+cpp_files/bubble)sort.cpp.i:
+	$(MAKE) -f CMakeFiles/run.dir/build.make "CMakeFiles/run.dir/cpp_files/bubble)sort.cpp.i"
+.PHONY : cpp_files/bubble)sort.cpp.i
 
-LinkedList.s: LinkedList.cpp.s
+cpp_files/bubble)sort.s: cpp_files/bubble)sort.cpp.s
 
-.PHONY : LinkedList.s
+.PHONY : cpp_files/bubble)sort.s
 
 # target to generate assembly for a file
-LinkedList.cpp.s:
-	$(MAKE) -f CMakeFiles/run.dir/build.make CMakeFiles/run.dir/LinkedList.cpp.s
-.PHONY : LinkedList.cpp.s
+cpp_files/bubble)sort.cpp.s:
+	$(MAKE) -f CMakeFiles/run.dir/build.make "CMakeFiles/run.dir/cpp_files/bubble)sort.cpp.s"
+.PHONY : cpp_files/bubble)sort.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... run"
 	@echo "... edit_cache"
-	@echo "... LinkedList.o"
-	@echo "... LinkedList.i"
-	@echo "... LinkedList.s"
+	@echo "... cpp_files/bubble)sort.o"
+	@echo "... cpp_files/bubble)sort.i"
+	@echo "... cpp_files/bubble)sort.s"
 .PHONY : help
 
 
