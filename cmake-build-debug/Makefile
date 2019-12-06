@@ -123,59 +123,32 @@ run/fast:
 	$(MAKE) -f CMakeFiles/run.dir/build.make CMakeFiles/run.dir/build
 .PHONY : run/fast
 
-find_three_largest.o: find_three_largest.cpp.o
+product_sum.o: product_sum.cpp.o
 
-.PHONY : find_three_largest.o
-
-# target to build an object file
-find_three_largest.cpp.o:
-	$(MAKE) -f CMakeFiles/run.dir/build.make CMakeFiles/run.dir/find_three_largest.cpp.o
-.PHONY : find_three_largest.cpp.o
-
-find_three_largest.i: find_three_largest.cpp.i
-
-.PHONY : find_three_largest.i
-
-# target to preprocess a source file
-find_three_largest.cpp.i:
-	$(MAKE) -f CMakeFiles/run.dir/build.make CMakeFiles/run.dir/find_three_largest.cpp.i
-.PHONY : find_three_largest.cpp.i
-
-find_three_largest.s: find_three_largest.cpp.s
-
-.PHONY : find_three_largest.s
-
-# target to generate assembly for a file
-find_three_largest.cpp.s:
-	$(MAKE) -f CMakeFiles/run.dir/build.make CMakeFiles/run.dir/find_three_largest.cpp.s
-.PHONY : find_three_largest.cpp.s
-
-isPalindrome.o: isPalindrome.cpp.o
-
-.PHONY : isPalindrome.o
+.PHONY : product_sum.o
 
 # target to build an object file
-isPalindrome.cpp.o:
-	$(MAKE) -f CMakeFiles/run.dir/build.make CMakeFiles/run.dir/isPalindrome.cpp.o
-.PHONY : isPalindrome.cpp.o
+product_sum.cpp.o:
+	$(MAKE) -f CMakeFiles/run.dir/build.make CMakeFiles/run.dir/product_sum.cpp.o
+.PHONY : product_sum.cpp.o
 
-isPalindrome.i: isPalindrome.cpp.i
+product_sum.i: product_sum.cpp.i
 
-.PHONY : isPalindrome.i
+.PHONY : product_sum.i
 
 # target to preprocess a source file
-isPalindrome.cpp.i:
-	$(MAKE) -f CMakeFiles/run.dir/build.make CMakeFiles/run.dir/isPalindrome.cpp.i
-.PHONY : isPalindrome.cpp.i
+product_sum.cpp.i:
+	$(MAKE) -f CMakeFiles/run.dir/build.make CMakeFiles/run.dir/product_sum.cpp.i
+.PHONY : product_sum.cpp.i
 
-isPalindrome.s: isPalindrome.cpp.s
+product_sum.s: product_sum.cpp.s
 
-.PHONY : isPalindrome.s
+.PHONY : product_sum.s
 
 # target to generate assembly for a file
-isPalindrome.cpp.s:
-	$(MAKE) -f CMakeFiles/run.dir/build.make CMakeFiles/run.dir/isPalindrome.cpp.s
-.PHONY : isPalindrome.cpp.s
+product_sum.cpp.s:
+	$(MAKE) -f CMakeFiles/run.dir/build.make CMakeFiles/run.dir/product_sum.cpp.s
+.PHONY : product_sum.cpp.s
 
 # Help Target
 help:
@@ -186,12 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... run"
 	@echo "... edit_cache"
-	@echo "... find_three_largest.o"
-	@echo "... find_three_largest.i"
-	@echo "... find_three_largest.s"
-	@echo "... isPalindrome.o"
-	@echo "... isPalindrome.i"
-	@echo "... isPalindrome.s"
+	@echo "... product_sum.o"
+	@echo "... product_sum.i"
+	@echo "... product_sum.s"
 .PHONY : help
 
 

@@ -84,10 +84,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/shivam/workspace/practice/find_three_largest.cpp">
-			<Option target="run"/>
-		</Unit>
-		<Unit filename="/home/shivam/workspace/practice/isPalindrome.cpp">
+		<Unit filename="/home/shivam/workspace/practice/product_sum.cpp">
 			<Option target="run"/>
 		</Unit>
 		<Unit filename="/home/shivam/workspace/practice/CMakeLists.txt">

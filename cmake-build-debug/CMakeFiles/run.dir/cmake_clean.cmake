@@ -1,6 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/run.dir/find_three_largest.cpp.o"
-  "CMakeFiles/run.dir/isPalindrome.cpp.o"
+  "CMakeFiles/run.dir/product_sum.cpp.o"
   "run"
   "run.pdb"
 )
