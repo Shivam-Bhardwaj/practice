@@ -87,9 +87,6 @@
 		<Unit filename="/home/shivam/workspace/practice/LinkedListConstruction.cpp">
 			<Option target="run"/>
 		</Unit>
-		<Unit filename="/home/shivam/workspace/practice/cpp_files/n_fibbonaci.cpp">
-			<Option target="run"/>
-		</Unit>
 		<Unit filename="/home/shivam/workspace/practice/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

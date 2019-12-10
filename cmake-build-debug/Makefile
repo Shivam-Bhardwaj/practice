@@ -150,33 +150,6 @@ LinkedListConstruction.cpp.s:
 	$(MAKE) -f CMakeFiles/run.dir/build.make CMakeFiles/run.dir/LinkedListConstruction.cpp.s
 .PHONY : LinkedListConstruction.cpp.s
 
-cpp_files/n_fibbonaci.o: cpp_files/n_fibbonaci.cpp.o
-
-.PHONY : cpp_files/n_fibbonaci.o
-
-# target to build an object file
-cpp_files/n_fibbonaci.cpp.o:
-	$(MAKE) -f CMakeFiles/run.dir/build.make CMakeFiles/run.dir/cpp_files/n_fibbonaci.cpp.o
-.PHONY : cpp_files/n_fibbonaci.cpp.o
-
-cpp_files/n_fibbonaci.i: cpp_files/n_fibbonaci.cpp.i
-
-.PHONY : cpp_files/n_fibbonaci.i
-
-# target to preprocess a source file
-cpp_files/n_fibbonaci.cpp.i:
-	$(MAKE) -f CMakeFiles/run.dir/build.make CMakeFiles/run.dir/cpp_files/n_fibbonaci.cpp.i
-.PHONY : cpp_files/n_fibbonaci.cpp.i
-
-cpp_files/n_fibbonaci.s: cpp_files/n_fibbonaci.cpp.s
-
-.PHONY : cpp_files/n_fibbonaci.s
-
-# target to generate assembly for a file
-cpp_files/n_fibbonaci.cpp.s:
-	$(MAKE) -f CMakeFiles/run.dir/build.make CMakeFiles/run.dir/cpp_files/n_fibbonaci.cpp.s
-.PHONY : cpp_files/n_fibbonaci.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -189,9 +162,6 @@ help:
 	@echo "... LinkedListConstruction.o"
 	@echo "... LinkedListConstruction.i"
 	@echo "... LinkedListConstruction.s"
-	@echo "... cpp_files/n_fibbonaci.o"
-	@echo "... cpp_files/n_fibbonaci.i"
-	@echo "... cpp_files/n_fibbonaci.s"
 .PHONY : help
 
 
