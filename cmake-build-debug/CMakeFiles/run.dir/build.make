@@ -57,27 +57,27 @@ include CMakeFiles/run.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/run.dir/flags.make
 
-CMakeFiles/run.dir/PlusOne.cpp.o: CMakeFiles/run.dir/flags.make
-CMakeFiles/run.dir/PlusOne.cpp.o: ../PlusOne.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shivam/workplace/practice/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/run.dir/PlusOne.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/run.dir/PlusOne.cpp.o -c /home/shivam/workplace/practice/PlusOne.cpp
+CMakeFiles/run.dir/Two_Sum_.cpp.o: CMakeFiles/run.dir/flags.make
+CMakeFiles/run.dir/Two_Sum_.cpp.o: ../Two\ Sum\ .cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shivam/workplace/practice/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/run.dir/Two_Sum_.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/run.dir/Two_Sum_.cpp.o -c "/home/shivam/workplace/practice/Two Sum .cpp"
 
-CMakeFiles/run.dir/PlusOne.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/run.dir/PlusOne.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shivam/workplace/practice/PlusOne.cpp > CMakeFiles/run.dir/PlusOne.cpp.i
+CMakeFiles/run.dir/Two_Sum_.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/run.dir/Two_Sum_.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/shivam/workplace/practice/Two Sum .cpp" > CMakeFiles/run.dir/Two_Sum_.cpp.i
 
-CMakeFiles/run.dir/PlusOne.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/run.dir/PlusOne.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shivam/workplace/practice/PlusOne.cpp -o CMakeFiles/run.dir/PlusOne.cpp.s
+CMakeFiles/run.dir/Two_Sum_.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/run.dir/Two_Sum_.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/shivam/workplace/practice/Two Sum .cpp" -o CMakeFiles/run.dir/Two_Sum_.cpp.s
 
 # Object files for target run
 run_OBJECTS = \
-"CMakeFiles/run.dir/PlusOne.cpp.o"
+"CMakeFiles/run.dir/Two_Sum_.cpp.o"
 
 # External object files for target run
 run_EXTERNAL_OBJECTS =
 
-run: CMakeFiles/run.dir/PlusOne.cpp.o
+run: CMakeFiles/run.dir/Two_Sum_.cpp.o
 run: CMakeFiles/run.dir/build.make
 run: CMakeFiles/run.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/shivam/workplace/practice/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable run"

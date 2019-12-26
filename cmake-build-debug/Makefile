@@ -123,32 +123,32 @@ run/fast:
 	$(MAKE) -f CMakeFiles/run.dir/build.make CMakeFiles/run.dir/build
 .PHONY : run/fast
 
-PlusOne.o: PlusOne.cpp.o
+Two_Sum_.o: Two_Sum_.cpp.o
 
-.PHONY : PlusOne.o
+.PHONY : Two_Sum_.o
 
 # target to build an object file
-PlusOne.cpp.o:
-	$(MAKE) -f CMakeFiles/run.dir/build.make CMakeFiles/run.dir/PlusOne.cpp.o
-.PHONY : PlusOne.cpp.o
+Two_Sum_.cpp.o:
+	$(MAKE) -f CMakeFiles/run.dir/build.make CMakeFiles/run.dir/Two_Sum_.cpp.o
+.PHONY : Two_Sum_.cpp.o
 
-PlusOne.i: PlusOne.cpp.i
+Two_Sum_.i: Two_Sum_.cpp.i
 
-.PHONY : PlusOne.i
+.PHONY : Two_Sum_.i
 
 # target to preprocess a source file
-PlusOne.cpp.i:
-	$(MAKE) -f CMakeFiles/run.dir/build.make CMakeFiles/run.dir/PlusOne.cpp.i
-.PHONY : PlusOne.cpp.i
+Two_Sum_.cpp.i:
+	$(MAKE) -f CMakeFiles/run.dir/build.make CMakeFiles/run.dir/Two_Sum_.cpp.i
+.PHONY : Two_Sum_.cpp.i
 
-PlusOne.s: PlusOne.cpp.s
+Two_Sum_.s: Two_Sum_.cpp.s
 
-.PHONY : PlusOne.s
+.PHONY : Two_Sum_.s
 
 # target to generate assembly for a file
-PlusOne.cpp.s:
-	$(MAKE) -f CMakeFiles/run.dir/build.make CMakeFiles/run.dir/PlusOne.cpp.s
-.PHONY : PlusOne.cpp.s
+Two_Sum_.cpp.s:
+	$(MAKE) -f CMakeFiles/run.dir/build.make CMakeFiles/run.dir/Two_Sum_.cpp.s
+.PHONY : Two_Sum_.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... run"
 	@echo "... edit_cache"
-	@echo "... PlusOne.o"
-	@echo "... PlusOne.i"
-	@echo "... PlusOne.s"
+	@echo "... Two_Sum_.o"
+	@echo "... Two_Sum_.i"
+	@echo "... Two_Sum_.s"
 .PHONY : help
 
 
