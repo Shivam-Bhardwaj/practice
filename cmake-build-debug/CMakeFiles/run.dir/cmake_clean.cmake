@@ -1,6 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/run.dir/LinkedListConstruction.cpp.o"
-  "CMakeFiles/run.dir/cpp_files/n_fibbonaci.cpp.o"
+  "CMakeFiles/run.dir/PlusOne.cpp.o"
   "run"
   "run.pdb"
 )

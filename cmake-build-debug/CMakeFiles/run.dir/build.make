@@ -34,19 +34,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/shivam/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/193.5233.103/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /home/shivam/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/193.5233.144/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /home/shivam/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/193.5233.103/bin/cmake/linux/bin/cmake -E remove -f
+RM = /home/shivam/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/193.5233.144/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/shivam/workspace/practice
+CMAKE_SOURCE_DIR = /home/shivam/workplace/practice
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/shivam/workspace/practice/cmake-build-debug
+CMAKE_BINARY_DIR = /home/shivam/workplace/practice/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/run.dir/depend.make
@@ -57,45 +57,30 @@ include CMakeFiles/run.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/run.dir/flags.make
 
-CMakeFiles/run.dir/cpp_files/n_fibbonaci.cpp.o: CMakeFiles/run.dir/flags.make
-CMakeFiles/run.dir/cpp_files/n_fibbonaci.cpp.o: ../cpp_files/n_fibbonaci.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shivam/workspace/practice/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/run.dir/cpp_files/n_fibbonaci.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/run.dir/cpp_files/n_fibbonaci.cpp.o -c /home/shivam/workspace/practice/cpp_files/n_fibbonaci.cpp
+CMakeFiles/run.dir/PlusOne.cpp.o: CMakeFiles/run.dir/flags.make
+CMakeFiles/run.dir/PlusOne.cpp.o: ../PlusOne.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shivam/workplace/practice/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/run.dir/PlusOne.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/run.dir/PlusOne.cpp.o -c /home/shivam/workplace/practice/PlusOne.cpp
 
-CMakeFiles/run.dir/cpp_files/n_fibbonaci.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/run.dir/cpp_files/n_fibbonaci.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shivam/workspace/practice/cpp_files/n_fibbonaci.cpp > CMakeFiles/run.dir/cpp_files/n_fibbonaci.cpp.i
+CMakeFiles/run.dir/PlusOne.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/run.dir/PlusOne.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shivam/workplace/practice/PlusOne.cpp > CMakeFiles/run.dir/PlusOne.cpp.i
 
-CMakeFiles/run.dir/cpp_files/n_fibbonaci.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/run.dir/cpp_files/n_fibbonaci.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shivam/workspace/practice/cpp_files/n_fibbonaci.cpp -o CMakeFiles/run.dir/cpp_files/n_fibbonaci.cpp.s
-
-CMakeFiles/run.dir/LinkedListConstruction.cpp.o: CMakeFiles/run.dir/flags.make
-CMakeFiles/run.dir/LinkedListConstruction.cpp.o: ../LinkedListConstruction.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shivam/workspace/practice/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/run.dir/LinkedListConstruction.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/run.dir/LinkedListConstruction.cpp.o -c /home/shivam/workspace/practice/LinkedListConstruction.cpp
-
-CMakeFiles/run.dir/LinkedListConstruction.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/run.dir/LinkedListConstruction.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shivam/workspace/practice/LinkedListConstruction.cpp > CMakeFiles/run.dir/LinkedListConstruction.cpp.i
-
-CMakeFiles/run.dir/LinkedListConstruction.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/run.dir/LinkedListConstruction.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shivam/workspace/practice/LinkedListConstruction.cpp -o CMakeFiles/run.dir/LinkedListConstruction.cpp.s
+CMakeFiles/run.dir/PlusOne.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/run.dir/PlusOne.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shivam/workplace/practice/PlusOne.cpp -o CMakeFiles/run.dir/PlusOne.cpp.s
 
 # Object files for target run
 run_OBJECTS = \
-"CMakeFiles/run.dir/cpp_files/n_fibbonaci.cpp.o" \
-"CMakeFiles/run.dir/LinkedListConstruction.cpp.o"
+"CMakeFiles/run.dir/PlusOne.cpp.o"
 
 # External object files for target run
 run_EXTERNAL_OBJECTS =
 
-run: CMakeFiles/run.dir/cpp_files/n_fibbonaci.cpp.o
-run: CMakeFiles/run.dir/LinkedListConstruction.cpp.o
+run: CMakeFiles/run.dir/PlusOne.cpp.o
 run: CMakeFiles/run.dir/build.make
 run: CMakeFiles/run.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/shivam/workspace/practice/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable run"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/shivam/workplace/practice/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable run"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/run.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -108,6 +93,6 @@ CMakeFiles/run.dir/clean:
 .PHONY : CMakeFiles/run.dir/clean
 
 CMakeFiles/run.dir/depend:
-	cd /home/shivam/workspace/practice/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/shivam/workspace/practice /home/shivam/workspace/practice /home/shivam/workspace/practice/cmake-build-debug /home/shivam/workspace/practice/cmake-build-debug /home/shivam/workspace/practice/cmake-build-debug/CMakeFiles/run.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/shivam/workplace/practice/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/shivam/workplace/practice /home/shivam/workplace/practice /home/shivam/workplace/practice/cmake-build-debug /home/shivam/workplace/practice/cmake-build-debug /home/shivam/workplace/practice/cmake-build-debug/CMakeFiles/run.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/run.dir/depend
 

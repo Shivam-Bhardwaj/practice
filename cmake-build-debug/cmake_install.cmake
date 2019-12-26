@@ -1,4 +1,4 @@
-# Install script for directory: /home/shivam/workspace/practice
+# Install script for directory: /home/shivam/workplace/practice
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/shivam/workspace/practice/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/shivam/workplace/practice/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

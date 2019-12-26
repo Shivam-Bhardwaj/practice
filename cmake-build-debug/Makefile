@@ -39,19 +39,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/shivam/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/193.5233.103/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /home/shivam/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/193.5233.144/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /home/shivam/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/193.5233.103/bin/cmake/linux/bin/cmake -E remove -f
+RM = /home/shivam/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/193.5233.144/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/shivam/workspace/practice
+CMAKE_SOURCE_DIR = /home/shivam/workplace/practice
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/shivam/workspace/practice/cmake-build-debug
+CMAKE_BINARY_DIR = /home/shivam/workplace/practice/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /home/shivam/workspace/practice/cmake-build-debug
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/home/shivam/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/193.5233.103/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/home/shivam/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/193.5233.144/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -70,7 +70,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/home/shivam/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/193.5233.103/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/home/shivam/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/193.5233.144/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/shivam/workspace/practice/cmake-build-debug/CMakeFiles /home/shivam/workspace/practice/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/shivam/workplace/practice/cmake-build-debug/CMakeFiles /home/shivam/workplace/practice/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/shivam/workspace/practice/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/shivam/workplace/practice/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -123,32 +123,32 @@ run/fast:
 	$(MAKE) -f CMakeFiles/run.dir/build.make CMakeFiles/run.dir/build
 .PHONY : run/fast
 
-LinkedListConstruction.o: LinkedListConstruction.cpp.o
+PlusOne.o: PlusOne.cpp.o
 
-.PHONY : LinkedListConstruction.o
+.PHONY : PlusOne.o
 
 # target to build an object file
-LinkedListConstruction.cpp.o:
-	$(MAKE) -f CMakeFiles/run.dir/build.make CMakeFiles/run.dir/LinkedListConstruction.cpp.o
-.PHONY : LinkedListConstruction.cpp.o
+PlusOne.cpp.o:
+	$(MAKE) -f CMakeFiles/run.dir/build.make CMakeFiles/run.dir/PlusOne.cpp.o
+.PHONY : PlusOne.cpp.o
 
-LinkedListConstruction.i: LinkedListConstruction.cpp.i
+PlusOne.i: PlusOne.cpp.i
 
-.PHONY : LinkedListConstruction.i
+.PHONY : PlusOne.i
 
 # target to preprocess a source file
-LinkedListConstruction.cpp.i:
-	$(MAKE) -f CMakeFiles/run.dir/build.make CMakeFiles/run.dir/LinkedListConstruction.cpp.i
-.PHONY : LinkedListConstruction.cpp.i
+PlusOne.cpp.i:
+	$(MAKE) -f CMakeFiles/run.dir/build.make CMakeFiles/run.dir/PlusOne.cpp.i
+.PHONY : PlusOne.cpp.i
 
-LinkedListConstruction.s: LinkedListConstruction.cpp.s
+PlusOne.s: PlusOne.cpp.s
 
-.PHONY : LinkedListConstruction.s
+.PHONY : PlusOne.s
 
 # target to generate assembly for a file
-LinkedListConstruction.cpp.s:
-	$(MAKE) -f CMakeFiles/run.dir/build.make CMakeFiles/run.dir/LinkedListConstruction.cpp.s
-.PHONY : LinkedListConstruction.cpp.s
+PlusOne.cpp.s:
+	$(MAKE) -f CMakeFiles/run.dir/build.make CMakeFiles/run.dir/PlusOne.cpp.s
+.PHONY : PlusOne.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... run"
 	@echo "... edit_cache"
-	@echo "... LinkedListConstruction.o"
-	@echo "... LinkedListConstruction.i"
-	@echo "... LinkedListConstruction.s"
+	@echo "... PlusOne.o"
+	@echo "... PlusOne.i"
+	@echo "... PlusOne.s"
 .PHONY : help
 
 
