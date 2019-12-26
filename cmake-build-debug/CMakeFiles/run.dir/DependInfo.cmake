@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/shivam/workplace/practice/Two Sum .cpp" "/home/shivam/workplace/practice/cmake-build-debug/CMakeFiles/run.dir/Two_Sum_.cpp.o"
+  "/home/shivam/workplace/practice/ValidSudoku.cpp" "/home/shivam/workplace/practice/cmake-build-debug/CMakeFiles/run.dir/ValidSudoku.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

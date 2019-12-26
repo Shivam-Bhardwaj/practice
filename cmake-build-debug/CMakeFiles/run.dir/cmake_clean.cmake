@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/run.dir/Two_Sum_.cpp.o"
+  "CMakeFiles/run.dir/ValidSudoku.cpp.o"
   "run"
   "run.pdb"
 )

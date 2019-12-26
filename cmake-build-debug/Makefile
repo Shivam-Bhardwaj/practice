@@ -123,32 +123,32 @@ run/fast:
 	$(MAKE) -f CMakeFiles/run.dir/build.make CMakeFiles/run.dir/build
 .PHONY : run/fast
 
-Two_Sum_.o: Two_Sum_.cpp.o
+ValidSudoku.o: ValidSudoku.cpp.o
 
-.PHONY : Two_Sum_.o
+.PHONY : ValidSudoku.o
 
 # target to build an object file
-Two_Sum_.cpp.o:
-	$(MAKE) -f CMakeFiles/run.dir/build.make CMakeFiles/run.dir/Two_Sum_.cpp.o
-.PHONY : Two_Sum_.cpp.o
+ValidSudoku.cpp.o:
+	$(MAKE) -f CMakeFiles/run.dir/build.make CMakeFiles/run.dir/ValidSudoku.cpp.o
+.PHONY : ValidSudoku.cpp.o
 
-Two_Sum_.i: Two_Sum_.cpp.i
+ValidSudoku.i: ValidSudoku.cpp.i
 
-.PHONY : Two_Sum_.i
+.PHONY : ValidSudoku.i
 
 # target to preprocess a source file
-Two_Sum_.cpp.i:
-	$(MAKE) -f CMakeFiles/run.dir/build.make CMakeFiles/run.dir/Two_Sum_.cpp.i
-.PHONY : Two_Sum_.cpp.i
+ValidSudoku.cpp.i:
+	$(MAKE) -f CMakeFiles/run.dir/build.make CMakeFiles/run.dir/ValidSudoku.cpp.i
+.PHONY : ValidSudoku.cpp.i
 
-Two_Sum_.s: Two_Sum_.cpp.s
+ValidSudoku.s: ValidSudoku.cpp.s
 
-.PHONY : Two_Sum_.s
+.PHONY : ValidSudoku.s
 
 # target to generate assembly for a file
-Two_Sum_.cpp.s:
-	$(MAKE) -f CMakeFiles/run.dir/build.make CMakeFiles/run.dir/Two_Sum_.cpp.s
-.PHONY : Two_Sum_.cpp.s
+ValidSudoku.cpp.s:
+	$(MAKE) -f CMakeFiles/run.dir/build.make CMakeFiles/run.dir/ValidSudoku.cpp.s
+.PHONY : ValidSudoku.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... run"
 	@echo "... edit_cache"
-	@echo "... Two_Sum_.o"
-	@echo "... Two_Sum_.i"
-	@echo "... Two_Sum_.s"
+	@echo "... ValidSudoku.o"
+	@echo "... ValidSudoku.i"
+	@echo "... ValidSudoku.s"
 .PHONY : help
 
 
