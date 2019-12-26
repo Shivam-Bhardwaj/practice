@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/run.dir/ValidSudoku.cpp.o"
+  "CMakeFiles/run.dir/rotate_matrix_2.cpp.o"
   "run"
   "run.pdb"
 )

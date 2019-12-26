@@ -123,32 +123,32 @@ run/fast:
 	$(MAKE) -f CMakeFiles/run.dir/build.make CMakeFiles/run.dir/build
 .PHONY : run/fast
 
-ValidSudoku.o: ValidSudoku.cpp.o
+rotate_matrix_2.o: rotate_matrix_2.cpp.o
 
-.PHONY : ValidSudoku.o
+.PHONY : rotate_matrix_2.o
 
 # target to build an object file
-ValidSudoku.cpp.o:
-	$(MAKE) -f CMakeFiles/run.dir/build.make CMakeFiles/run.dir/ValidSudoku.cpp.o
-.PHONY : ValidSudoku.cpp.o
+rotate_matrix_2.cpp.o:
+	$(MAKE) -f CMakeFiles/run.dir/build.make CMakeFiles/run.dir/rotate_matrix_2.cpp.o
+.PHONY : rotate_matrix_2.cpp.o
 
-ValidSudoku.i: ValidSudoku.cpp.i
+rotate_matrix_2.i: rotate_matrix_2.cpp.i
 
-.PHONY : ValidSudoku.i
+.PHONY : rotate_matrix_2.i
 
 # target to preprocess a source file
-ValidSudoku.cpp.i:
-	$(MAKE) -f CMakeFiles/run.dir/build.make CMakeFiles/run.dir/ValidSudoku.cpp.i
-.PHONY : ValidSudoku.cpp.i
+rotate_matrix_2.cpp.i:
+	$(MAKE) -f CMakeFiles/run.dir/build.make CMakeFiles/run.dir/rotate_matrix_2.cpp.i
+.PHONY : rotate_matrix_2.cpp.i
 
-ValidSudoku.s: ValidSudoku.cpp.s
+rotate_matrix_2.s: rotate_matrix_2.cpp.s
 
-.PHONY : ValidSudoku.s
+.PHONY : rotate_matrix_2.s
 
 # target to generate assembly for a file
-ValidSudoku.cpp.s:
-	$(MAKE) -f CMakeFiles/run.dir/build.make CMakeFiles/run.dir/ValidSudoku.cpp.s
-.PHONY : ValidSudoku.cpp.s
+rotate_matrix_2.cpp.s:
+	$(MAKE) -f CMakeFiles/run.dir/build.make CMakeFiles/run.dir/rotate_matrix_2.cpp.s
+.PHONY : rotate_matrix_2.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... run"
 	@echo "... edit_cache"
-	@echo "... ValidSudoku.o"
-	@echo "... ValidSudoku.i"
-	@echo "... ValidSudoku.s"
+	@echo "... rotate_matrix_2.o"
+	@echo "... rotate_matrix_2.i"
+	@echo "... rotate_matrix_2.s"
 .PHONY : help
 
 
