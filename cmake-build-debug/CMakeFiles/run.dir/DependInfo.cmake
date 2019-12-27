@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/shivam/workplace/practice/reverse_integer.cpp" "/home/shivam/workplace/practice/cmake-build-debug/CMakeFiles/run.dir/reverse_integer.cpp.o"
+  "/home/shivam/workplace/practice/first_unique.cpp" "/home/shivam/workplace/practice/cmake-build-debug/CMakeFiles/run.dir/first_unique.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
