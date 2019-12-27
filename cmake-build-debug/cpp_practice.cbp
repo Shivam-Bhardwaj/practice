@@ -84,7 +84,10 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/shivam/workplace/practice/first_unique.cpp">
+		<Unit filename="/home/shivam/workplace/practice/cpp_files/first_unique.cpp">
+			<Option target="run"/>
+		</Unit>
+		<Unit filename="/home/shivam/workplace/practice/valid_anagram.cpp">
 			<Option target="run"/>
 		</Unit>
 		<Unit filename="/home/shivam/workplace/practice/CMakeLists.txt">

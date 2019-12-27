@@ -123,32 +123,59 @@ run/fast:
 	$(MAKE) -f CMakeFiles/run.dir/build.make CMakeFiles/run.dir/build
 .PHONY : run/fast
 
-first_unique.o: first_unique.cpp.o
+cpp_files/first_unique.o: cpp_files/first_unique.cpp.o
 
-.PHONY : first_unique.o
+.PHONY : cpp_files/first_unique.o
 
 # target to build an object file
-first_unique.cpp.o:
-	$(MAKE) -f CMakeFiles/run.dir/build.make CMakeFiles/run.dir/first_unique.cpp.o
-.PHONY : first_unique.cpp.o
+cpp_files/first_unique.cpp.o:
+	$(MAKE) -f CMakeFiles/run.dir/build.make CMakeFiles/run.dir/cpp_files/first_unique.cpp.o
+.PHONY : cpp_files/first_unique.cpp.o
 
-first_unique.i: first_unique.cpp.i
+cpp_files/first_unique.i: cpp_files/first_unique.cpp.i
 
-.PHONY : first_unique.i
+.PHONY : cpp_files/first_unique.i
 
 # target to preprocess a source file
-first_unique.cpp.i:
-	$(MAKE) -f CMakeFiles/run.dir/build.make CMakeFiles/run.dir/first_unique.cpp.i
-.PHONY : first_unique.cpp.i
+cpp_files/first_unique.cpp.i:
+	$(MAKE) -f CMakeFiles/run.dir/build.make CMakeFiles/run.dir/cpp_files/first_unique.cpp.i
+.PHONY : cpp_files/first_unique.cpp.i
 
-first_unique.s: first_unique.cpp.s
+cpp_files/first_unique.s: cpp_files/first_unique.cpp.s
 
-.PHONY : first_unique.s
+.PHONY : cpp_files/first_unique.s
 
 # target to generate assembly for a file
-first_unique.cpp.s:
-	$(MAKE) -f CMakeFiles/run.dir/build.make CMakeFiles/run.dir/first_unique.cpp.s
-.PHONY : first_unique.cpp.s
+cpp_files/first_unique.cpp.s:
+	$(MAKE) -f CMakeFiles/run.dir/build.make CMakeFiles/run.dir/cpp_files/first_unique.cpp.s
+.PHONY : cpp_files/first_unique.cpp.s
+
+valid_anagram.o: valid_anagram.cpp.o
+
+.PHONY : valid_anagram.o
+
+# target to build an object file
+valid_anagram.cpp.o:
+	$(MAKE) -f CMakeFiles/run.dir/build.make CMakeFiles/run.dir/valid_anagram.cpp.o
+.PHONY : valid_anagram.cpp.o
+
+valid_anagram.i: valid_anagram.cpp.i
+
+.PHONY : valid_anagram.i
+
+# target to preprocess a source file
+valid_anagram.cpp.i:
+	$(MAKE) -f CMakeFiles/run.dir/build.make CMakeFiles/run.dir/valid_anagram.cpp.i
+.PHONY : valid_anagram.cpp.i
+
+valid_anagram.s: valid_anagram.cpp.s
+
+.PHONY : valid_anagram.s
+
+# target to generate assembly for a file
+valid_anagram.cpp.s:
+	$(MAKE) -f CMakeFiles/run.dir/build.make CMakeFiles/run.dir/valid_anagram.cpp.s
+.PHONY : valid_anagram.cpp.s
 
 # Help Target
 help:
@@ -159,9 +186,12 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... run"
 	@echo "... edit_cache"
-	@echo "... first_unique.o"
-	@echo "... first_unique.i"
-	@echo "... first_unique.s"
+	@echo "... cpp_files/first_unique.o"
+	@echo "... cpp_files/first_unique.i"
+	@echo "... cpp_files/first_unique.s"
+	@echo "... valid_anagram.o"
+	@echo "... valid_anagram.i"
+	@echo "... valid_anagram.s"
 .PHONY : help
 
 
