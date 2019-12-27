@@ -12,6 +12,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="75b15269-f61e-4cba-a7df-0fc4ecc24755" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/ String to Integer (atoi).cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cpp_files/valid_palindrome.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
@@ -27,7 +29,7 @@
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/cpp_practice.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/cpp_practice.cbp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/run" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/run" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/valid_anagram.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/valid_anagram.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/valid_anagram.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/cpp_files/valid_anagram.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,7 +131,7 @@
       <workItem from="1577157271576" duration="4047000" />
       <workItem from="1577221018468" duration="3072000" />
       <workItem from="1577316602161" duration="14665000" />
-      <workItem from="1577407685263" duration="6232000" />
+      <workItem from="1577407685263" duration="8259000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1571887032612</created>
@@ -397,7 +399,14 @@
       <option name="project" value="LOCAL" />
       <updated>1577413148449</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="valid_anagram finsihed">
+      <created>1577414285965</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1577414285965</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -418,7 +427,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="sparse matrix" />
     <MESSAGE value="Stack using arrays" />
     <MESSAGE value="permutation of a string" />
     <MESSAGE value="bitset" />
@@ -443,7 +451,8 @@
     <MESSAGE value="reverse_integer.cpp added" />
     <MESSAGE value="first_unique_character.cpp added" />
     <MESSAGE value="valid_anagram.cpp added" />
-    <option name="LAST_COMMIT_MESSAGE" value="valid_anagram.cpp added" />
+    <MESSAGE value="valid_anagram finsihed" />
+    <option name="LAST_COMMIT_MESSAGE" value="valid_anagram finsihed" />
   </component>
   <component name="WindowStateProjectService">
     <state x="610" y="301" width="762" height="470" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog" timestamp="1575158664553">
@@ -458,66 +467,66 @@
       <screen x="67" y="27" width="1853" height="1052" />
     </state>
     <state x="861" y="252" width="257" height="601" key="#xdebugger.evaluate/67.27.1853.1052@67.27.1853.1052" timestamp="1575091929308" />
-    <state x="560" y="53" width="860" height="815" key="CommitChangelistDialog2" timestamp="1577413148400">
+    <state x="560" y="53" width="860" height="815" key="CommitChangelistDialog2" timestamp="1577414285911">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
-    <state x="560" y="53" key="CommitChangelistDialog2/65.24.1855.1056@65.24.1855.1056" timestamp="1577413148400" />
+    <state x="560" y="53" key="CommitChangelistDialog2/65.24.1855.1056@65.24.1855.1056" timestamp="1577414285911" />
     <state x="561" y="112" width="860" height="815" key="CommitChangelistDialog2/67.27.1853.1052@67.27.1853.1052" timestamp="1575158241145" />
     <state x="564" y="56" width="860" height="815" key="CommitChangelistDialog2/71.27.1849.1052@71.27.1849.1052" timestamp="1575629749848" />
-    <state width="1809" height="296" key="GridCell.Tab.0.bottom" timestamp="1577414157069">
+    <state width="1809" height="296" key="GridCell.Tab.0.bottom" timestamp="1577416097587">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
     <state width="1874" height="277" key="GridCell.Tab.0.bottom/0.27.1920.1052@0.27.1920.1052" timestamp="1575532259675" />
-    <state width="1809" height="296" key="GridCell.Tab.0.bottom/65.24.1855.1056@65.24.1855.1056" timestamp="1577414157069" />
+    <state width="1809" height="296" key="GridCell.Tab.0.bottom/65.24.1855.1056@65.24.1855.1056" timestamp="1577416097587" />
     <state width="1807" height="277" key="GridCell.Tab.0.bottom/67.27.1853.1052@67.27.1853.1052" timestamp="1575238892236" />
     <state width="1803" height="277" key="GridCell.Tab.0.bottom/71.27.1849.1052@71.27.1849.1052" timestamp="1575629666308" />
-    <state width="1809" height="296" key="GridCell.Tab.0.center" timestamp="1577414157068">
+    <state width="1809" height="296" key="GridCell.Tab.0.center" timestamp="1577416097587">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
     <state width="1874" height="277" key="GridCell.Tab.0.center/0.27.1920.1052@0.27.1920.1052" timestamp="1575532259675" />
-    <state width="1809" height="296" key="GridCell.Tab.0.center/65.24.1855.1056@65.24.1855.1056" timestamp="1577414157068" />
+    <state width="1809" height="296" key="GridCell.Tab.0.center/65.24.1855.1056@65.24.1855.1056" timestamp="1577416097587" />
     <state width="1807" height="277" key="GridCell.Tab.0.center/67.27.1853.1052@67.27.1853.1052" timestamp="1575238892236" />
     <state width="1803" height="277" key="GridCell.Tab.0.center/71.27.1849.1052@71.27.1849.1052" timestamp="1575629666308" />
-    <state width="1809" height="296" key="GridCell.Tab.0.left" timestamp="1577414157068">
+    <state width="1809" height="296" key="GridCell.Tab.0.left" timestamp="1577416097587">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
     <state width="1874" height="277" key="GridCell.Tab.0.left/0.27.1920.1052@0.27.1920.1052" timestamp="1575532259674" />
-    <state width="1809" height="296" key="GridCell.Tab.0.left/65.24.1855.1056@65.24.1855.1056" timestamp="1577414157068" />
+    <state width="1809" height="296" key="GridCell.Tab.0.left/65.24.1855.1056@65.24.1855.1056" timestamp="1577416097587" />
     <state width="1807" height="277" key="GridCell.Tab.0.left/67.27.1853.1052@67.27.1853.1052" timestamp="1575238892235" />
     <state width="1803" height="277" key="GridCell.Tab.0.left/71.27.1849.1052@71.27.1849.1052" timestamp="1575629666307" />
-    <state width="1809" height="296" key="GridCell.Tab.0.right" timestamp="1577414157069">
+    <state width="1809" height="296" key="GridCell.Tab.0.right" timestamp="1577416097587">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
     <state width="1874" height="277" key="GridCell.Tab.0.right/0.27.1920.1052@0.27.1920.1052" timestamp="1575532259675" />
-    <state width="1809" height="296" key="GridCell.Tab.0.right/65.24.1855.1056@65.24.1855.1056" timestamp="1577414157069" />
+    <state width="1809" height="296" key="GridCell.Tab.0.right/65.24.1855.1056@65.24.1855.1056" timestamp="1577416097587" />
     <state width="1807" height="277" key="GridCell.Tab.0.right/67.27.1853.1052@67.27.1853.1052" timestamp="1575238892236" />
     <state width="1803" height="277" key="GridCell.Tab.0.right/71.27.1849.1052@71.27.1849.1052" timestamp="1575629666308" />
-    <state width="1809" height="365" key="GridCell.Tab.1.bottom" timestamp="1577412422568">
+    <state width="1809" height="365" key="GridCell.Tab.1.bottom" timestamp="1577415605815">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
     <state width="1874" height="344" key="GridCell.Tab.1.bottom/0.27.1920.1052@0.27.1920.1052" timestamp="1575531987627" />
-    <state width="1809" height="365" key="GridCell.Tab.1.bottom/65.24.1855.1056@65.24.1855.1056" timestamp="1577412422568" />
+    <state width="1809" height="365" key="GridCell.Tab.1.bottom/65.24.1855.1056@65.24.1855.1056" timestamp="1577415605815" />
     <state width="1807" height="503" key="GridCell.Tab.1.bottom/67.27.1853.1052@67.27.1853.1052" timestamp="1575108681380" />
     <state width="1803" height="344" key="GridCell.Tab.1.bottom/71.27.1849.1052@71.27.1849.1052" timestamp="1575629618826" />
-    <state width="1809" height="365" key="GridCell.Tab.1.center" timestamp="1577412422568">
+    <state width="1809" height="365" key="GridCell.Tab.1.center" timestamp="1577415605815">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
     <state width="1874" height="344" key="GridCell.Tab.1.center/0.27.1920.1052@0.27.1920.1052" timestamp="1575531987626" />
-    <state width="1809" height="365" key="GridCell.Tab.1.center/65.24.1855.1056@65.24.1855.1056" timestamp="1577412422568" />
+    <state width="1809" height="365" key="GridCell.Tab.1.center/65.24.1855.1056@65.24.1855.1056" timestamp="1577415605815" />
     <state width="1807" height="503" key="GridCell.Tab.1.center/67.27.1853.1052@67.27.1853.1052" timestamp="1575108681379" />
     <state width="1803" height="344" key="GridCell.Tab.1.center/71.27.1849.1052@71.27.1849.1052" timestamp="1575629618825" />
-    <state width="1809" height="365" key="GridCell.Tab.1.left" timestamp="1577412422568">
+    <state width="1809" height="365" key="GridCell.Tab.1.left" timestamp="1577415605814">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
     <state width="1874" height="344" key="GridCell.Tab.1.left/0.27.1920.1052@0.27.1920.1052" timestamp="1575531987626" />
-    <state width="1809" height="365" key="GridCell.Tab.1.left/65.24.1855.1056@65.24.1855.1056" timestamp="1577412422568" />
+    <state width="1809" height="365" key="GridCell.Tab.1.left/65.24.1855.1056@65.24.1855.1056" timestamp="1577415605814" />
     <state width="1807" height="503" key="GridCell.Tab.1.left/67.27.1853.1052@67.27.1853.1052" timestamp="1575108681378" />
     <state width="1803" height="344" key="GridCell.Tab.1.left/71.27.1849.1052@71.27.1849.1052" timestamp="1575629618825" />
-    <state width="1809" height="365" key="GridCell.Tab.1.right" timestamp="1577412422568">
+    <state width="1809" height="365" key="GridCell.Tab.1.right" timestamp="1577415605815">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
     <state width="1874" height="344" key="GridCell.Tab.1.right/0.27.1920.1052@0.27.1920.1052" timestamp="1575531987627" />
-    <state width="1809" height="365" key="GridCell.Tab.1.right/65.24.1855.1056@65.24.1855.1056" timestamp="1577412422568" />
+    <state width="1809" height="365" key="GridCell.Tab.1.right/65.24.1855.1056@65.24.1855.1056" timestamp="1577415605815" />
     <state width="1807" height="503" key="GridCell.Tab.1.right/67.27.1853.1052@67.27.1853.1052" timestamp="1575108681379" />
     <state width="1803" height="344" key="GridCell.Tab.1.right/71.27.1849.1052@71.27.1849.1052" timestamp="1575629618826" />
     <state width="1807" height="503" key="GridCell.Tab.2.bottom" timestamp="1575107933347">
@@ -599,6 +608,11 @@
           <url>file://$PROJECT_DIR$/cpp_files/reverse_integer.cpp</url>
           <line>10</line>
           <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/cpp_files/valid_palindrome.cpp</url>
+          <line>6</line>
+          <option name="timeStamp" value="15" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

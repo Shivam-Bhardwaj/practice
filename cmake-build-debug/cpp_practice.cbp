@@ -84,7 +84,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/shivam/workplace/practice/valid_anagram.cpp">
+		<Unit filename="/home/shivam/workplace/practice/ String to Integer (atoi).cpp">
 			<Option target="run"/>
 		</Unit>
 		<Unit filename="/home/shivam/workplace/practice/CMakeLists.txt">

@@ -4,4 +4,4 @@ project(cpp_practice)
 set(CMAKE_CXX_STANDARD 11)
 
 #add_executable(run exp.cpp)
-add_executable(run valid_anagram.cpp)
+add_executable(run " String to Integer (atoi).cpp")

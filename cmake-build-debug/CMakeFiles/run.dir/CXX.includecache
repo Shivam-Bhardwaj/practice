@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/shivam/workplace/practice/valid_anagram.cpp
+/home/shivam/workplace/practice/valid_palindrome.cpp
 iostream
 /home/shivam/workplace/practice/iostream
 bits/stdc++.h
