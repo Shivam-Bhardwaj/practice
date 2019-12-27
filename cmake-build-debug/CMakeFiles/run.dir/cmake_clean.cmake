@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/run.dir/rotate_matrix_2.cpp.o"
+  "CMakeFiles/run.dir/reverse_integer.cpp.o"
   "run"
   "run.pdb"
 )

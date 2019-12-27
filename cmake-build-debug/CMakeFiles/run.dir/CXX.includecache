@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/shivam/workplace/practice/ValidSudoku.cpp
+/home/shivam/workplace/practice/reverse_integer.cpp
 iostream
 /home/shivam/workplace/practice/iostream
 bits/stdc++.h

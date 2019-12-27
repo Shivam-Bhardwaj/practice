@@ -123,32 +123,32 @@ run/fast:
 	$(MAKE) -f CMakeFiles/run.dir/build.make CMakeFiles/run.dir/build
 .PHONY : run/fast
 
-rotate_matrix_2.o: rotate_matrix_2.cpp.o
+reverse_integer.o: reverse_integer.cpp.o
 
-.PHONY : rotate_matrix_2.o
+.PHONY : reverse_integer.o
 
 # target to build an object file
-rotate_matrix_2.cpp.o:
-	$(MAKE) -f CMakeFiles/run.dir/build.make CMakeFiles/run.dir/rotate_matrix_2.cpp.o
-.PHONY : rotate_matrix_2.cpp.o
+reverse_integer.cpp.o:
+	$(MAKE) -f CMakeFiles/run.dir/build.make CMakeFiles/run.dir/reverse_integer.cpp.o
+.PHONY : reverse_integer.cpp.o
 
-rotate_matrix_2.i: rotate_matrix_2.cpp.i
+reverse_integer.i: reverse_integer.cpp.i
 
-.PHONY : rotate_matrix_2.i
+.PHONY : reverse_integer.i
 
 # target to preprocess a source file
-rotate_matrix_2.cpp.i:
-	$(MAKE) -f CMakeFiles/run.dir/build.make CMakeFiles/run.dir/rotate_matrix_2.cpp.i
-.PHONY : rotate_matrix_2.cpp.i
+reverse_integer.cpp.i:
+	$(MAKE) -f CMakeFiles/run.dir/build.make CMakeFiles/run.dir/reverse_integer.cpp.i
+.PHONY : reverse_integer.cpp.i
 
-rotate_matrix_2.s: rotate_matrix_2.cpp.s
+reverse_integer.s: reverse_integer.cpp.s
 
-.PHONY : rotate_matrix_2.s
+.PHONY : reverse_integer.s
 
 # target to generate assembly for a file
-rotate_matrix_2.cpp.s:
-	$(MAKE) -f CMakeFiles/run.dir/build.make CMakeFiles/run.dir/rotate_matrix_2.cpp.s
-.PHONY : rotate_matrix_2.cpp.s
+reverse_integer.cpp.s:
+	$(MAKE) -f CMakeFiles/run.dir/build.make CMakeFiles/run.dir/reverse_integer.cpp.s
+.PHONY : reverse_integer.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... run"
 	@echo "... edit_cache"
-	@echo "... rotate_matrix_2.o"
-	@echo "... rotate_matrix_2.i"
-	@echo "... rotate_matrix_2.s"
+	@echo "... reverse_integer.o"
+	@echo "... reverse_integer.i"
+	@echo "... reverse_integer.s"
 .PHONY : help
 
 
