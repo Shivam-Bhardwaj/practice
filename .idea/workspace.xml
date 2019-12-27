@@ -12,24 +12,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="75b15269-f61e-4cba-a7df-0fc4ecc24755" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ String to Integer (atoi).cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cpp_files/valid_palindrome.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ String to Integer (atoi).cpp" beforeDir="false" afterPath="$PROJECT_DIR$/ String to Integer (atoi).cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/run.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/run.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/run.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/run.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/run.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/run.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/run.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/run.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/run.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/run.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/run.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/run.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/run.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/run.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/run.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/run.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cpp_practice.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/cpp_practice.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/run" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/run" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/valid_anagram.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/cpp_files/valid_anagram.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -131,7 +115,7 @@
       <workItem from="1577157271576" duration="4047000" />
       <workItem from="1577221018468" duration="3072000" />
       <workItem from="1577316602161" duration="14665000" />
-      <workItem from="1577407685263" duration="8259000" />
+      <workItem from="1577407685263" duration="8432000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1571887032612</created>
@@ -406,7 +390,14 @@
       <option name="project" value="LOCAL" />
       <updated>1577414285965</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="String to Integer added">
+      <created>1577416251586</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1577416251586</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -427,7 +418,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="Stack using arrays" />
     <MESSAGE value="permutation of a string" />
     <MESSAGE value="bitset" />
     <MESSAGE value="1.5 One Away" />
@@ -452,7 +442,8 @@
     <MESSAGE value="first_unique_character.cpp added" />
     <MESSAGE value="valid_anagram.cpp added" />
     <MESSAGE value="valid_anagram finsihed" />
-    <option name="LAST_COMMIT_MESSAGE" value="valid_anagram finsihed" />
+    <MESSAGE value="String to Integer added" />
+    <option name="LAST_COMMIT_MESSAGE" value="String to Integer added" />
   </component>
   <component name="WindowStateProjectService">
     <state x="610" y="301" width="762" height="470" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog" timestamp="1575158664553">
@@ -467,10 +458,10 @@
       <screen x="67" y="27" width="1853" height="1052" />
     </state>
     <state x="861" y="252" width="257" height="601" key="#xdebugger.evaluate/67.27.1853.1052@67.27.1853.1052" timestamp="1575091929308" />
-    <state x="560" y="53" width="860" height="815" key="CommitChangelistDialog2" timestamp="1577414285911">
+    <state x="560" y="53" width="860" height="815" key="CommitChangelistDialog2" timestamp="1577416251547">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
-    <state x="560" y="53" key="CommitChangelistDialog2/65.24.1855.1056@65.24.1855.1056" timestamp="1577414285911" />
+    <state x="560" y="53" key="CommitChangelistDialog2/65.24.1855.1056@65.24.1855.1056" timestamp="1577416251547" />
     <state x="561" y="112" width="860" height="815" key="CommitChangelistDialog2/67.27.1853.1052@67.27.1853.1052" timestamp="1575158241145" />
     <state x="564" y="56" width="860" height="815" key="CommitChangelistDialog2/71.27.1849.1052@71.27.1849.1052" timestamp="1575629749848" />
     <state width="1809" height="296" key="GridCell.Tab.0.bottom" timestamp="1577416097587">
