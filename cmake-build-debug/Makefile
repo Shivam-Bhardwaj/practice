@@ -123,33 +123,6 @@ run/fast:
 	$(MAKE) -f CMakeFiles/run.dir/build.make CMakeFiles/run.dir/build
 .PHONY : run/fast
 
-cpp_files/first_unique.o: cpp_files/first_unique.cpp.o
-
-.PHONY : cpp_files/first_unique.o
-
-# target to build an object file
-cpp_files/first_unique.cpp.o:
-	$(MAKE) -f CMakeFiles/run.dir/build.make CMakeFiles/run.dir/cpp_files/first_unique.cpp.o
-.PHONY : cpp_files/first_unique.cpp.o
-
-cpp_files/first_unique.i: cpp_files/first_unique.cpp.i
-
-.PHONY : cpp_files/first_unique.i
-
-# target to preprocess a source file
-cpp_files/first_unique.cpp.i:
-	$(MAKE) -f CMakeFiles/run.dir/build.make CMakeFiles/run.dir/cpp_files/first_unique.cpp.i
-.PHONY : cpp_files/first_unique.cpp.i
-
-cpp_files/first_unique.s: cpp_files/first_unique.cpp.s
-
-.PHONY : cpp_files/first_unique.s
-
-# target to generate assembly for a file
-cpp_files/first_unique.cpp.s:
-	$(MAKE) -f CMakeFiles/run.dir/build.make CMakeFiles/run.dir/cpp_files/first_unique.cpp.s
-.PHONY : cpp_files/first_unique.cpp.s
-
 valid_anagram.o: valid_anagram.cpp.o
 
 .PHONY : valid_anagram.o
@@ -186,9 +159,6 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... run"
 	@echo "... edit_cache"
-	@echo "... cpp_files/first_unique.o"
-	@echo "... cpp_files/first_unique.i"
-	@echo "... cpp_files/first_unique.s"
 	@echo "... valid_anagram.o"
 	@echo "... valid_anagram.i"
 	@echo "... valid_anagram.s"
