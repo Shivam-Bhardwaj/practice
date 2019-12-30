@@ -1,3 +1,7 @@
+//
+// Created by shivam on 12/29/19.
+//
+
 #include "iostream"
 #include <bits/stdc++.h>
 #include "vector"
@@ -5,7 +9,20 @@
 using namespace std;
 
 int myAtoi(string str) {
-
+    bool neg = false;
+    bool start = true;
+    vector<int> v;
+    for (int i = 0; i < str.size(); ++i) {
+        if(str[i]==' ') continue;
+        if(str[i]=='-') {
+            neg = true;
+            continue;
+        }
+        if(isdigit(str[i]){
+            start = true;
+            if
+        }
+    }
 }
 
 

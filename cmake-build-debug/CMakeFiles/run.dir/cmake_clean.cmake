@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/run.dir/_String_to_Integer_(atoi).cpp.o"
+  "CMakeFiles/run.dir/atoi.cpp.o"
   "run"
   "run.pdb"
 )

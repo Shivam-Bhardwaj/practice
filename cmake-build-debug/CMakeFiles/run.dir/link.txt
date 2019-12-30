@@ -1,1 +1,1 @@
-/usr/bin/c++  -g   "CMakeFiles/run.dir/_String_to_Integer_(atoi).cpp.o"  -o run 
+/usr/bin/c++  -g   CMakeFiles/run.dir/atoi.cpp.o  -o run 

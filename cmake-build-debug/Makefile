@@ -39,10 +39,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/shivam/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/193.5233.144/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /home/shivam/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/193.5662.56/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /home/shivam/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/193.5233.144/bin/cmake/linux/bin/cmake -E remove -f
+RM = /home/shivam/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/193.5662.56/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /home/shivam/workplace/practice/cmake-build-debug
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/home/shivam/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/193.5233.144/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/home/shivam/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/193.5662.56/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -70,7 +70,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/home/shivam/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/193.5233.144/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/home/shivam/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/193.5662.56/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -123,32 +123,32 @@ run/fast:
 	$(MAKE) -f CMakeFiles/run.dir/build.make CMakeFiles/run.dir/build
 .PHONY : run/fast
 
-_String_to_Integer_(atoi).o: _String_to_Integer_(atoi).cpp.o
+atoi.o: atoi.cpp.o
 
-.PHONY : _String_to_Integer_(atoi).o
+.PHONY : atoi.o
 
 # target to build an object file
-_String_to_Integer_(atoi).cpp.o:
-	$(MAKE) -f CMakeFiles/run.dir/build.make "CMakeFiles/run.dir/_String_to_Integer_(atoi).cpp.o"
-.PHONY : _String_to_Integer_(atoi).cpp.o
+atoi.cpp.o:
+	$(MAKE) -f CMakeFiles/run.dir/build.make CMakeFiles/run.dir/atoi.cpp.o
+.PHONY : atoi.cpp.o
 
-_String_to_Integer_(atoi).i: _String_to_Integer_(atoi).cpp.i
+atoi.i: atoi.cpp.i
 
-.PHONY : _String_to_Integer_(atoi).i
+.PHONY : atoi.i
 
 # target to preprocess a source file
-_String_to_Integer_(atoi).cpp.i:
-	$(MAKE) -f CMakeFiles/run.dir/build.make "CMakeFiles/run.dir/_String_to_Integer_(atoi).cpp.i"
-.PHONY : _String_to_Integer_(atoi).cpp.i
+atoi.cpp.i:
+	$(MAKE) -f CMakeFiles/run.dir/build.make CMakeFiles/run.dir/atoi.cpp.i
+.PHONY : atoi.cpp.i
 
-_String_to_Integer_(atoi).s: _String_to_Integer_(atoi).cpp.s
+atoi.s: atoi.cpp.s
 
-.PHONY : _String_to_Integer_(atoi).s
+.PHONY : atoi.s
 
 # target to generate assembly for a file
-_String_to_Integer_(atoi).cpp.s:
-	$(MAKE) -f CMakeFiles/run.dir/build.make "CMakeFiles/run.dir/_String_to_Integer_(atoi).cpp.s"
-.PHONY : _String_to_Integer_(atoi).cpp.s
+atoi.cpp.s:
+	$(MAKE) -f CMakeFiles/run.dir/build.make CMakeFiles/run.dir/atoi.cpp.s
+.PHONY : atoi.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... run"
 	@echo "... edit_cache"
-	@echo "... _String_to_Integer_(atoi).o"
-	@echo "... _String_to_Integer_(atoi).i"
-	@echo "... _String_to_Integer_(atoi).s"
+	@echo "... atoi.o"
+	@echo "... atoi.i"
+	@echo "... atoi.s"
 .PHONY : help
 
 
