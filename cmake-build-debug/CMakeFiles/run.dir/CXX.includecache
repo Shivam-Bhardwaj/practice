@@ -7,8 +7,6 @@
 #IncludeRegexTransform: 
 
 /home/shivam/workplace/practice/classes_exp.cpp
-cassert
+stdio.h
 -
-iostream
-/home/shivam/workplace/practice/iostream
 
