@@ -1,3 +1,0 @@
-/home/shivam/workplace/practice/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/shivam/workplace/practice/cmake-build-debug/CMakeFiles/run.dir
-/home/shivam/workplace/practice/cmake-build-debug/CMakeFiles/edit_cache.dir
