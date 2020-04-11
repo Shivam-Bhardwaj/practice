@@ -8,7 +8,7 @@ using namespace std;
 int removeDuplicates(vector<int> &nums) {
   int ctr = 0;
   int n = nums.size();
-  for (int i = 0; i < n ; ++i) {
+  for (int i = 0; i < n; ++i) {
     if (nums[ctr] != nums[i + 1]) {
       nums[ctr] = nums[i];
       ctr++;
