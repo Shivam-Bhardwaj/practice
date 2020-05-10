@@ -14,7 +14,7 @@ int removeDuplicates(vector<int> &nums) {
       ctr++;
     }
   }
-// not here
+// not here 1
   for (int j = 0; j < ctr; ++j) {
     printf("%d ", nums[j]);
   }
