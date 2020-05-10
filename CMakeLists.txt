@@ -4,4 +4,4 @@ project(cpp_practice)
 set(CMAKE_CXX_STANDARD 11)
 
 #add_executable(run exp.cpp)
-add_executable(run "remove_duplicates_from_sorted_array.cpp")
+add_executable(run cpp_files/even_and_odd_indexes.cpp)
