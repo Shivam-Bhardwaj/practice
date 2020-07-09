@@ -25,7 +25,7 @@ void removeDuplicates(vector<int>& nums, int k){
 
 int main(void) {
     cout << "here\n\n";
-//    assert(removeDuplicates{[0,0,0,0,1,1,1,2,2,2,3,4,4,4}, 14) == {0,1,2,3,4});
+    assert(removeDuplicates{[0,0,0,0,1,1,1,2,2,2,3,4,4,4}, 14) == {0,1,2,3,4});
     vector<int> v{-2};
     removeDuplicates(v, 3);
 
