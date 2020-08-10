@@ -8,17 +8,20 @@
 
 using namespace std;
 
-void padding(string &a, string &b);
+void padding(string &a, string &b){
+  int big = max(a.length(), b.length());
+ int small = min(a.length(), b.length());
+}
 
 
 int main() {
-//    cout << multiply("1234567",
-//                     "89") << endl;
+  string a{"1234567"};
+  string b{"89"};
+  padding(a,b);
 
-  cout << to_string(1234567 * 89) << endl;
+//  cout << to_string(1234567 * 89) << endl;
 
-  cout << "success";
-  cin.get();
-  cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
+  cout << "\nsuccess";
   return 0;
 }
+
