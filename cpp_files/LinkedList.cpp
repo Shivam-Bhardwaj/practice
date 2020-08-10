@@ -9,25 +9,25 @@
 using namespace std;
 
 
-class Node{
+class Node {
 public:
-    Node * next;
-    int data;
+  Node *next;
+  int data;
 };
 
-void printlist(Node * head){
-    while (head!= nullptr){
-        cout << head->data;
-        head = head->next;
-    }
+void printlist(Node *head) {
+  while (head != nullptr) {
+    cout << head->data;
+    head = head->next;
+  }
 }
 
-void push(Node* head, int val){
+void push(Node *head, int val) {
 
 }
 
 int main(void) {
-    cout << "here";
+  cout << "here";
 //    Node* head = nullptr;
 //    Node* a = nullptr;
 //    Node* b = nullptr;
@@ -49,14 +49,12 @@ int main(void) {
 //    cout << sizeof(int);
 //    cout<< sizeof(head->next);
 
-    Node *head = new Node;
-    head->next = nullptr;
-    head->data = 1;
-
-    
+  Node *head = new Node;
+  head->next = nullptr;
+  head->data = 1;
 
 
-    cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
-    return 0;
+  cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
+  return 0;
 }
 

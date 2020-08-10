@@ -13,26 +13,26 @@
 using namespace std;
 
 int firstUniqChar(string s) {
-    unordered_map<char, int> m;
-    for(int i = 0; i<s.size();i++){
-        m[s[i]]++;
-    }
-    for (int j = 0; j < s.size(); ++j) {
-        if(m[s[j]]==1) return j;
-    }
-    return -1;
+  unordered_map<char, int> m;
+  for (int i = 0; i < s.size(); i++) {
+    m[s[i]]++;
+  }
+  for (int j = 0; j < s.size(); ++j) {
+    if (m[s[j]] == 1) return j;
+  }
+  return -1;
 }
 
 int main() {
 //    cout << "here";
 
 
-    assert(firstUniqChar("leetcode") == 0);
-    assert(firstUniqChar("loveleetcode") == 2);
-    assert(firstUniqChar("aaaa") == -1);
+  assert(firstUniqChar("leetcode") == 0);
+  assert(firstUniqChar("loveleetcode") == 2);
+  assert(firstUniqChar("aaaa") == -1);
 
-    cout<<"success";
-    cin.get();
-    cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
-    return 0;
+  cout << "success";
+  cin.get();
+  cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
+  return 0;
 }

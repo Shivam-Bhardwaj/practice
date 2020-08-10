@@ -9,7 +9,7 @@
 using namespace std;
 
 bool isPalindrome(string str) {
-    // Write your code here.
+  // Write your code here.
 //    bitset<128> B;
 //    int i = 0;
 //    while(str[i]!='\0'){
@@ -19,21 +19,21 @@ bool isPalindrome(string str) {
 //    if(B.count()>1) return false;
 //    else return true;
 
-    int n = str.size();
-    int i =0;
-    while(i<n/2){
-        if(str[i]!=str[n-i-1]) return false;
-        i++;
-    }
-    return true;
+  int n = str.size();
+  int i = 0;
+  while (i < n / 2) {
+    if (str[i] != str[n - i - 1]) return false;
+    i++;
+  }
+  return true;
 }
 
 
 int main(void) {
-    assert(isPalindrome("bab") == 1);
-    cout<<"here";
-    cin.get();
-    cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
-    return 0;
+  assert(isPalindrome("bab") == 1);
+  cout << "here";
+  cin.get();
+  cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
+  return 0;
 }
 

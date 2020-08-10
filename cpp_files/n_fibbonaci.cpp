@@ -9,18 +9,18 @@
 using namespace std;
 
 int getNthFib(int n) {
-    // Write your code here.
-    if(n==1) return 0;
-    if(n==2) return 1;
-    return getNthFib(n-1)+getNthFib(n-2);;
+  // Write your code here.
+  if (n == 1) return 0;
+  if (n == 2) return 1;
+  return getNthFib(n - 1) + getNthFib(n - 2);;
 }
 
 int main(void) {
-    cout << "here";
-    assert(getNthFib(6) == 5);
+  cout << "here";
+  assert(getNthFib(6) == 5);
 
-    cin.get();
-    cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
-    return 0;
+  cin.get();
+  cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
+  return 0;
 }
 

@@ -5,42 +5,43 @@
 #include "iostream"
 
 using namespace std;
+
 int helper(int input[], int size, int x, int *output, int index, int cur_ind) {
-    if (cur_ind == size) return index;
-    if (input[cur_ind] == x) output[index++] = cur_ind;
-    int ind = helper(input, size, x, output, index, cur_ind + 1);
-    return ind;
+  if (cur_ind == size) return index;
+  if (input[cur_ind] == x) output[index++] = cur_ind;
+  int ind = helper(input, size, x, output, index, cur_ind + 1);
+  return ind;
 }
 
 int allIndexes(int input[], int size, int x, int *output) {
-    int index = helper(input, size, x, output, 0, 0);
-    return index;
+  int index = helper(input, size, x, output, 0, 0);
+  return index;
 }
 
-int main(){
-    int n;
-    cin >> n;
+int main() {
+  int n;
+  cin >> n;
 
-    int *input = new int[n];
+  int *input = new int[n];
 
-    for(int i = 0; i < n; i++) {
-        cin >> input[i];
-    }
+  for (int i = 0; i < n; i++) {
+    cin >> input[i];
+  }
 
-    int x;
+  int x;
 
-    cin >> x;
+  cin >> x;
 
-    int *output = new int[n];
+  int *output = new int[n];
 
-    int size = allIndexes(input, n, x, output);
-    for(int i = 0; i < size; i++) {
-        cout << output[i] << " ";
-    }
+  int size = allIndexes(input, n, x, output);
+  for (int i = 0; i < size; i++) {
+    cout << output[i] << " ";
+  }
 
-    delete [] input;
+  delete[] input;
 
-    delete [] output;
+  delete[] output;
 
 
 }
