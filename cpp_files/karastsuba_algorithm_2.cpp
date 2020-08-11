@@ -91,13 +91,13 @@ string operator-(const string &x_, const string &y_) {
 }
 
 string operator*(const string &x, const string &y) {
-
-  if (x.length() < 2) {
-    return to_string(((stoi(x) * (stoi(y)))));
-  }
   string x_0 = x;
   string y_0 = y;
   padding(x_0, y_0);
+  if (x.length() < 2) {
+    return to_string(((stoi(x) * (stoi(y)))));
+  }
+
   unsigned int n = x_0.length() / 2;
   unsigned int n_ = x_0.length() - n;
   string a = x_0.substr(0, n);
@@ -123,14 +123,12 @@ string operator*(const string &x, const string &y) {
 int main() {
   string x{"123456"};
   string y{"89"};
-//  cout << "x: " << x << " y: " << y << endl;
+
   string a = "1234567889";
   string b = "1234567889";
   cout << a * b << endl;
-//  cout << stoi(a) * stoi(b) << endl;
-//  cout << to_string(1234567 * 89) << endl;
-
   cout << "\nsuccess";
+
   return 0;
 }
 //1524249104549916321
@@ -141,9 +139,11 @@ int main() {
 
 void padding(string &x, string &y) {
   if (y.length() < x.length()) {
-    y = std::string(max(x.length(), y.length()) - y.length(), '0') + y;
+    string zeros = std::string(max(x.length(), y.length()) - y.length(), '0');
+    y = zeros.append(y);
   } else {
-    x = std::string(max(x.length(), y.length()) - x.length(), '0') + x;
+    string zeros = std::string(max(x.length(), y.length()) - x.length(), '0');
+    x = zeros.append(x);
   }
 }
 
