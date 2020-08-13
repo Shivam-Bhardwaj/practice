@@ -28,39 +28,84 @@ bool isSmaller(string x, string y) {
   return false;
 }
 
-string operator+(const string &x_, const string &y_);
+string operator+(const string &x_, const string y_) {
+  string x = x_;
+  string y = y_;
+  padding(x, y);
+  if (x.length() > y.length())
+    swap(x, y);
+
+  // Take an empty string for storing result
+  string str = "";
+
+  // Calculate length of both string
+  int n1 = x.length(), n2 = y.length();
+
+  // Reverse both of strings
+  reverse(x.begin(), x.end());
+  reverse(y.begin(), y.end());
+
+  int carry = 0;
+  for (int i = 0; i < n1; i++) {
+    // Do school mathematics, compute sum of
+    // current digits and carry
+    int sum = ((x[i] - '0') + (y[i] - '0') + carry);
+    str.push_back(sum % 10 + '0');
+
+    // Calculate carry for next step
+    carry = sum / 10;
+  }
+
+  // Add remaining digits of larger number
+  for (int i = n1; i < n2; i++) {
+    int sum = ((y[i] - '0') + carry);
+    str.push_back(sum % 10 + '0');
+    carry = sum / 10;
+  }
+
+  // Add remaining carry
+  if (carry)
+    str.push_back(carry + '0');
+
+  // reverse resultant string
+  reverse(str.begin(), str.end());
+
+  return str;
+}
+
 
 string operator-(const string &x_, const string &y_) {
   string x = x_;
   string y = y_;
-// Before proceeding further, make sure x 
-  // is not smaller 
+  padding(x, y);
+// Before proceeding further, make sure x
+  // is not smaller
   if (isSmaller(x, y))
     swap(x, y);
 
-  // Take an empty string for storing result 
+  // Take an empty string for storing result
   string str = "";
 
-  // Calculate length of both string 
+  // Calculate length of both string
   int n1 = x.length(), n2 = y.length();
 
-  // Reverse both of strings 
+  // Reverse both of strings
   reverse(x.begin(), x.end());
   reverse(y.begin(), y.end());
 
   int carry = 0;
 
-  // Run loop till small string length 
-  // and subtract digit of x to y 
+  // Run loop till small string length
+  // and subtract digit of x to y
   for (int i = 0; i < n2; i++) {
-    // Do school mathematics, compute difference of 
-    // current digits 
+    // Do school mathematics, compute difference of
+    // current digits
 
     int sub = ((x[i] - '0') - (y[i] - '0') - carry);
 
-    // If subtraction is less then zero 
-    // we add then we add 10 into sub and 
-    // take carry as 1 for calculating next step 
+    // If subtraction is less then zero
+    // we add then we add 10 into sub and
+    // take carry as 1 for calculating next step
     if (sub < 0) {
       sub = sub + 10;
       carry = 1;
@@ -70,11 +115,11 @@ string operator-(const string &x_, const string &y_) {
     str.push_back(sub + '0');
   }
 
-  // subtract remaining digits of larger number 
+  // subtract remaining digits of larger number
   for (int i = n2; i < n1; i++) {
     int sub = ((x[i] - '0') - carry);
 
-    // if the sub value is -ve, then make it positive 
+    // if the sub value is -ve, then make it positive
     if (sub < 0) {
       sub = sub + 10;
       carry = 1;
@@ -84,7 +129,7 @@ string operator-(const string &x_, const string &y_) {
     str.push_back(sub + '0');
   }
 
-  // reverse resultant string 
+  // reverse resultant string
   reverse(str.begin(), str.end());
 
   return str;
@@ -106,36 +151,19 @@ string operator*(const string &x, const string &y) {
   string d = y_0.substr(n, n_);
   string z_1 = a * c;
   string z_2 = b * d;
-  string z_3_1 = (a + b);
-  string z_3_2 = (c + d);
-  string z_3 = z_3_1 * z_3_2;
-  string z_4_1 = (z_3 - z_2);
-  string z_4 = z_4_1 - z_1;
-  string t1 = (z_1 + string(n_ * 2, '0'));
-  string t2 = (z_2);
-  string t3 = (z_4 + string(n_, '0'));
-  string temp_1 = t1 + t2;
-  string temp = temp_1 + t3;
+  string z_3 = (a + b) * (c + d);
+  string z_4 = (z_3 - z_2) - z_1;
+  string temp = z_2 + (z_1.append(n_ * 2, '0') + z_4.append(n_, '0'));
   return temp;
 }
 
-
 int main() {
-  string x{"123456"};
-  string y{"89"};
-
-  string a = "1234567889";
-  string b = "1234567889";
-  cout << a * b << endl;
-  cout << "\nsuccess";
-
+  string a = "3141592653589793238462643383279502884197169399375105820974944592";
+  string b = "2718281828459045235360287471352662497757247093699959574966967627";
+  string result = a * b;
+  cout << result << endl;
   return 0;
 }
-//1524249104549916321
-//1524157872549916321
-
-//8539734222673567065463550869546574495034888535765114961879601127067743044893204848617875072216249073013374895871952806582723184
-//8539734223631721465464512134855494934558531398689949919798976484418055645420643000268199666504267909544596295871952806582723184
 
 void padding(string &x, string &y) {
   if (y.length() < x.length()) {
@@ -147,46 +175,3 @@ void padding(string &x, string &y) {
   }
 }
 
-string operator+(const string &x_, const string &y_) {
-  string x = x_;
-  string y = y_;
-  if (x.length() > y.length())
-    swap(x, y);
-
-  // Take an empty string for storing result 
-  string str = "";
-
-  // Calculate length of both string 
-  int n1 = x.length(), n2 = y.length();
-
-  // Reverse both of strings 
-  reverse(x.begin(), x.end());
-  reverse(y.begin(), y.end());
-
-  int carry = 0;
-  for (int i = 0; i < n1; i++) {
-    // Do school mathematics, compute sum of 
-    // current digits and carry 
-    int sum = ((x[i] - '0') + (y[i] - '0') + carry);
-    str.push_back(sum % 10 + '0');
-
-    // Calculate carry for next step 
-    carry = sum / 10;
-  }
-
-  // Add remaining digits of larger number 
-  for (int i = n1; i < n2; i++) {
-    int sum = ((y[i] - '0') + carry);
-    str.push_back(sum % 10 + '0');
-    carry = sum / 10;
-  }
-
-  // Add remaining carry 
-  if (carry)
-    str.push_back(carry + '0');
-
-  // reverse resultant string 
-  reverse(str.begin(), str.end());
-
-  return str;
-}
