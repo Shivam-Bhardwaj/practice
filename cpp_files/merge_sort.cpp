@@ -6,36 +6,57 @@
 #include <bits/stdc++.h>
 #include "vector"
 
+//using vector<int> = std::vector<int>;
 using namespace std;
+void merge(vector<int> &array, int left, int mid, int right) {
+  vector<int> temp_l;
+  vector<int> temp_r;
+  int left_size = mid - left + 1;
+  int right_size = right - mid;
 
-void sort(vector<int> &array, size_t start = 0, size_t end = 0);
-
-bool check(vector<int> &a);
-
-int main() {
-  vector<int> array{5, 4, 3, 2, 1, 1, 3, 2, 4};
-  sort(array);
-  for (int i : array) {
-    cout << i;
+  for (int i = 0; i < left_size; ++i) {
+    temp_l.push_back(array[i + left]);
   }
-  if (check(array)) {
-    cout << "\nsuccess";
-  } else {
-    cout << "\nfail";
+  for (int i = 0; i < right_size; ++i) {
+    temp_r.push_back(array[i + mid + 1]);
+  }
+  int i{0}, j{0}, k{left};
+
+  while (i < left_size && j < right_size) {
+    if (temp_l.at(i) < temp_r.at(j)) {
+      array[k] = temp_l.at(i);
+      i++;
+      k++;
+    } else {
+      array[k] = temp_r.at(j);
+      j++;
+      k++;
+    }
+  }
+  while (i < left_size) {
+    array[k] = temp_l.at(i);
+    i++;
+    k++;
+  }
+
+  while (j < right_size) {
+    array[k] = temp_r.at(j);
+    j++;
+    k++;
   }
 }
 
-void sort(vector<int> &array, size_t start, size_t end) {
+void sort(vector<int> &array, int left, int right) {
   //base case
-  if (array.size() < 2) {
-    return;
-  }
-  std::size_t mid = array.size() / 2;
-  // recursive call
-  sort(array, 0, mid - 1);
-  sort(array, mid, array.size() - 1);
+  if (left < right) {
+    // recursive call
+    int mid = left + (right - left) / 2;
+    sort(array, left, mid);
+    sort(array, mid + 1, right);
 
-  // add
+    // merge
+    merge(array, left, mid, right);
+  }
 }
 
 bool check(vector<int> &a) {
@@ -46,3 +67,18 @@ bool check(vector<int> &a) {
   }
   return true;
 }
+
+int main() {
+  vector<int> array{3,2,1};
+
+  sort(array, 0, array.size() - 1);
+  for (int i : array) {
+    std::cout << i << " ";
+  }
+  if (check(array)) {
+    std::cout << "\nsuccess";
+  } else {
+    std::cout << "\nfail";
+  }
+}
+
