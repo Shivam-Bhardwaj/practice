@@ -6,24 +6,26 @@
 #include "any"
 #include "vector"
 #include "cassert"
+#include "algorithm"
 
 using namespace std;
 
-vector<int> insertionSort(vector<int> array) {
+vector<int> findThreeLargestNumbers(vector<int> array) {
   // Write your code here.
-  for (int i = 0; i < array.size() - 1; ++i) {
-    for (int j = i+1; j >0 ; j--) {
-      if (array.at(j)<array.at(j-1)){
-        swap(array.at(j), array.at(j-1));
-      }
+  vector<int> result{array.begin(), array.begin() + 3};
+  sort(result.begin(), result.end());
+  for (int i = 3; i < array.size(); ++i) {
+    if (result.at(0) < array.at(i)) {
+      result[0] = array.at(i);
+      sort(result.begin(), result.end());
     }
   }
-  return array;
+  return result;
 }
 
 
 int main() {
-  vector<int> expected = {2, 3, 5, 5, 6, 8, 9};
-
-  assert(insertionSort({8, 5, 2, 9, 5, 6, 3}) == expected);
+  vector<int> expected{18, 141, 541};
+  assert(findThreeLargestNumbers(
+    {141, 1, 17, -7, -17, -27, 18, 541, 8, 7, 7}) == expected);
 }
