@@ -9,18 +9,29 @@
 #include "algorithm"
 
 using namespace std;
+void swapp(int &a, int &b){
+  int temp = a;
+  a = b;
+  b = temp;
+}
 
-bool isPalindrome(string str) {
+vector<int> selectionSort(vector<int> array) {
   // Write your code here.
-  if (str.empty()) return true;
-  std::size_t left{0}, right{str.length()-1};
-  for (; left <right ;) {
-    if (str.at(left++)!=str.at(right--)) return false;
+  int j = 0;
+  for (int i = 0; i < array.size(); ++i) {
+    int min_pose = i;
+    for (j = i; j < array.size(); ++j) {
+      if (array.at(j) < array.at(min_pose)){
+        min_pose = j;
+      }
+    }
+    swap(array[i], array[min_pose]);
   }
-  return true;
+  return array;
 }
 
 
 int main() {
-  assert(isPalindrome("aba"));
+  vector<int> expected = {2, 3, 5, 5, 6, 8, 9};
+  assert(selectionSort({8, 5, 2, 9, 5, 6, 3}) == expected);
 }
