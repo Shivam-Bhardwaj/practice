@@ -10,22 +10,17 @@
 
 using namespace std;
 
-vector<int> findThreeLargestNumbers(vector<int> array) {
+bool isPalindrome(string str) {
   // Write your code here.
-  vector<int> result{array.begin(), array.begin() + 3};
-  sort(result.begin(), result.end());
-  for (int i = 3; i < array.size(); ++i) {
-    if (result.at(0) < array.at(i)) {
-      result[0] = array.at(i);
-      sort(result.begin(), result.end());
-    }
+  if (str.empty()) return true;
+  std::size_t left{0}, right{str.length()-1};
+  for (; left <right ;) {
+    if (str.at(left++)!=str.at(right--)) return false;
   }
-  return result;
+  return true;
 }
 
 
 int main() {
-  vector<int> expected{18, 141, 541};
-  assert(findThreeLargestNumbers(
-    {141, 1, 17, -7, -17, -27, 18, 541, 8, 7, 7}) == expected);
+  assert(isPalindrome("aba"));
 }
