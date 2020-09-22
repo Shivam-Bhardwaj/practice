@@ -5,4 +5,4 @@ set(CMAKE_CXX_STANDARD 11)
 
 #add_executable(run exp.cpp)
 link_libraries(pthread)
-add_executable(run cpp_files/threads_try.cpp)
+add_executable(run cpp_files/threads_try.cpp cpp_files/scratch.cpp)
