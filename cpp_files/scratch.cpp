@@ -9,17 +9,14 @@
 
 using namespace std;
 
-vector<int> bubbleSort(vector<int> array) {
-  // Write your code here.Second Pass:
-  bool swap_flag = false;
-  for (int i = 0; i < array.size(); ++i) {
-    for (int j = 0; j < array.size()-1; ++j) {
-      if (array.at(j)>array.at(j+1)){
-        swap_flag= true;
-        swap(array[j],array[j+1]);
+vector<int> insertionSort(vector<int> array) {
+  // Write your code here.
+  for (int i = 0; i < array.size() - 1; ++i) {
+    for (int j = i+1; j >0 ; j--) {
+      if (array.at(j)<array.at(j-1)){
+        swap(array.at(j), array.at(j-1));
       }
     }
-    if (!swap_flag) return array;
   }
   return array;
 }
@@ -28,5 +25,5 @@ vector<int> bubbleSort(vector<int> array) {
 int main() {
   vector<int> expected = {2, 3, 5, 5, 6, 8, 9};
 
-  assert(bubbleSort({8, 5, 2, 9, 5, 6, 3}) == expected);
+  assert(insertionSort({8, 5, 2, 9, 5, 6, 3}) == expected);
 }
