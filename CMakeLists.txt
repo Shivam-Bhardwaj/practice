@@ -4,4 +4,5 @@ project(cpp_practice)
 set(CMAKE_CXX_STANDARD 11)
 
 #add_executable(run exp.cpp)
-add_executable(run cpp_files/count_inversions.cpp)
+link_libraries(pthread)
+add_executable(run cpp_files/threads_try.cpp)
