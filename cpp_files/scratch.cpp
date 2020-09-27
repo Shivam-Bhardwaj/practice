@@ -10,36 +10,76 @@
 
 using namespace std;
 
-bool isMonotonic(vector<int> array) {
+int longestPeak(vector<int> array) {
   // Write your code here.
-  if (array.size() < 3) return true;
-  int idx{0};
-  bool original_direction{false};
-  while (idx < array.size()-1) {
-    if (array.at(idx) == array.at(idx + 1)) {
+  if (array.size() < 2) return 0;
+  size_t idx{1}, peak_length{0};
+
+  while (idx < array.size() - 1) {
+    bool is_peak = (array.at(idx) > array.at(idx - 1) && array.at(idx) > array.at(idx + 1));
+    if (!is_peak) {
       idx++;
-    } else {
-      original_direction = array.at(idx) < array.at(idx + 1);
-      break;
-    }
-  }
-  for (int i = 2; i < array.size(); ++i) {
-    if (array[i] == array[i - 1]) {
       continue;
     }
-    bool direction = array[i] > array[i - 1];
-    if (direction != original_direction) {
-      return false;
+    size_t left{idx}, right{idx};
+    while (left > 0) {
+      if (array.at(left - 1) < array.at(left)) {
+        left--;
+      } else {
+        break;
+      }
     }
+    while (right < array.size()-1) {
+      if (array.at(right) > array.at(right + 1)) {
+        right++;
+      }else{
+        break;
+      }
+    }
+    peak_length = max(peak_length, right - left + 1);
+    idx++;
   }
-  return true;
+  return peak_length;
 }
 
 
 int main() {
-  vector<int> input = {1,1,1,1,1};
-  bool expected = true;
-  bool actual = isMonotonic(input);
+  vector<int> input = {1, 2, 3, 4, 3, 2, 1};
+  int expected = 7;
+  int actual = longestPeak(input);
   assert(expected == actual);
+  input = {};
+  expected = 0;
+  actual = longestPeak(input);
+  assert(expected == actual);
+  input = {1};
+  expected = 0;
+  actual = longestPeak(input);
+  assert(expected == actual);
+  input = {1, 1};
+  expected = 0;
+  actual = longestPeak(input);
+  assert(expected == actual);
+  input = {1, 1, 1};
+  expected = 0;
+  actual = longestPeak(input);
+  assert(expected == actual);
+  input = {1, 2, 3, 4};
+  expected = 0;
+  actual = longestPeak(input);
+  assert(expected == actual);
+  input = {1, 2, 3, 4, 3, 2, 1};
+  expected = 7;
+  actual = longestPeak(input);
+  assert(expected == actual);
+  input = {1, 2, 3, 2, 1, 0, 1, 2, 3, 4, 3, 2, 1};
+  expected = 8;
+  actual = longestPeak(input);
+  assert(expected == actual);
+  input = {1, 2, 3, 10, 2};
+  expected = 5;
+  actual = longestPeak(input);
+  assert(expected == actual);
+
   cout << "hi";
 }
