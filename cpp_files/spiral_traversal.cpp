@@ -1,5 +1,5 @@
 //
-// Created by shivam on 9/21/20.
+// Created by shivam on 9/27/20.
 //
 
 #include "iostream"
@@ -66,44 +66,41 @@ int main() {
 
   vector<int> actual = spiralTraverse(input);
 
-//  for (auto i: actual) {
-//    cout << actual.at(i);
-//  }
   assert(expected == actual);
-//
-//  input = {
-//    {1,  2,  3},
-//    {12, 13, 14},
-//    {11, 16, 15},
-//    {10, 9,  8},
-//  };
-//  expected = {1, 2, 3, 14, 15, 8, 9, 10, 11, 12, 13, 16};
-//  actual = spiralTraverse(input);
-//  assert(expected == actual);
-//
-//  input = {
-//    {1,  2},
-//    {12, 13},
-//    {11, 16},
-//    {10, 9},
-//  };
-//  expected = {1, 2, 13, 16, 9, 10, 11, 12};
-//  actual = spiralTraverse(input);
-//  assert(expected == actual);
-//
-//  input = {
-//    {1},
-//    {12},
-//    {11},
-//    {10},
-//  };
-//  expected = {1, 12, 11, 10};
-//  actual = spiralTraverse(input);
-//  assert(expected == actual);
-//
-//  input = {{1,12,11,10}};
-//  expected = {1, 12, 11, 10};
-//  actual = spiralTraverse(input);
-//  assert(expected == actual);
-//  cout << "hi";
+
+  input = {
+    {1,  2,  3},
+    {12, 13, 14},
+    {11, 16, 15},
+    {10, 9,  8},
+  };
+  expected = {1, 2, 3, 14, 15, 8, 9, 10, 11, 12, 13, 16};
+  actual = spiralTraverse(input);
+  assert(expected == actual);
+
+  input = {
+    {1,  2},
+    {12, 13},
+    {11, 16},
+    {10, 9},
+  };
+  expected = {1, 2, 13, 16, 9, 10, 11, 12};
+  actual = spiralTraverse(input);
+  assert(expected == actual);
+
+  input = {
+    {1},
+    {12},
+    {11},
+    {10},
+  };
+  expected = {1, 12, 11, 10};
+  actual = spiralTraverse(input);
+  assert(expected == actual);
+
+  input = {{1,12,11,10}};
+  expected = {1, 12, 11, 10};
+  actual = spiralTraverse(input);
+  assert(expected == actual);
+  cout << "hi";
 }
