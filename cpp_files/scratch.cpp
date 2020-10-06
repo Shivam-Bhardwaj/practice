@@ -1,5 +1,5 @@
 //
-// Created by shivam on 9/21/20.
+// Created by shivam on 10/3/20.
 //
 
 #include "iostream"
@@ -8,108 +8,63 @@
 #include "cassert"
 #include "algorithm"
 #include "map"
-#include "stack"
 
 using namespace std;
 
+vector<int> helper(const string str, int left, int right){
+  while(left >=0 && right < str.length()){
+    if(str.at(left)!= str.at(right)){
+      // return vector<int>{left+1, right};
+      break;
+    }
+    left--;
+    right++;
 
-class LinkedList {
-public:
-  int value;
-  LinkedList *next;
-
-  LinkedList(int value);
-
-  void addMany(vector<int> values);
-
-  vector<int> getNodesInArray();
-};
-
-void create_stack(stack<LinkedList *> &list_stack, LinkedList *head) {
-  while (head != NULL) {
-    list_stack.push(head);
-    head = head->next;
   }
+  return vector<int>{left+1, right};
 }
 
-void pop_stack(stack<LinkedList *> &list_stack, int k) {
-  for (int i = 0; i < k -1; ++i) {
-    list_stack.pop();
-  }
-}
-
-
-void removeKthNodeFromEnd(LinkedList *head, int k) {
+string longestPalindromicSubstring(string str) {
   // Write your code here.
-  LinkedList * start= head;
-  LinkedList * end=head;
-  while(end && k--){
-    end = end->next;
+  vector<int> result{0,1};
+  for(int i = 1; i < str.length(); i++){
+    vector<int> odd = helper(str, i-1, i+1);
+    vector<int> even = helper(str, i-1, i);
+
+    int odd_length = odd.at(1) - odd.at(0);
+    int even_length = even.at(1) - even.at(0);
+    vector<int> current_length = odd_length > even_length?odd:even;
+    result = current_length.at(1) - current_length.at(0) > result.at(1) - result.at(0)?
+             current_length:result;
   }
-  while (end)
-  {
-    start = start->next;
-    end = end->next;
-  }
-
-  if(!end){
-    auto next = start->next;
-//    list_stack.pop();
-    start = start->next;
-  }
-
-}
-
-class TestLinkedList : public LinkedList {
-public:
-  TestLinkedList(int value);
-
-  void addMany(vector<int> values);
-
-  vector<int> getNodesInArray();
-};
-
-LinkedList::LinkedList(int value) {
-  this->value = value;
-  this->next = NULL;
-}
-
-TestLinkedList::TestLinkedList(int value) : LinkedList(value) {
-  this->value = value;
-  this->next = NULL;
-}
-
-void TestLinkedList::addMany(vector<int> values) {
-  LinkedList *current = this;
-  while (current->next != NULL) {
-    current = current->next;
-  }
-  for (int value : values) {
-    current->next = new LinkedList(value);
-    current = current->next;
-  }
-}
-
-vector<int> TestLinkedList::getNodesInArray() {
-  vector<int> nodes{};
-  LinkedList *current = this;
-  while (current != NULL) {
-    nodes.push_back(current->value);
-    current = current->next;
-  }
-  return nodes;
+  return str.substr(result.at(0), result.at(1) - result.at(0));
 }
 
 int main() {
   {
-    TestLinkedList test(0);
-    test.addMany({1, 2, 3, 4, 5, 6, 7, 8, 9});
-    TestLinkedList expected(1);
-    expected.addMany({2, 3, 4, 5, 6, 7, 8, 9});
-    removeKthNodeFromEnd(&test, 10);
-    assert(test.getNodesInArray() == expected.getNodesInArray());
+    assert(longestPalindromicSubstring("abaxyzczyxf") == "xyzczyx");
     cout << "TEST 0 PASS";
   }
-
+  {
+    assert(longestPalindromicSubstring("abaxyzzyxf") == "xyzzyx");
+    cout << "TEST 1 PASS";
+  }
+  {
+    assert(longestPalindromicSubstring("aba") == "aba");
+    cout << "TEST 2 PASS";
+  }
+  {
+    assert(longestPalindromicSubstring("abcc") == "cc");
+    cout << "TEST 3 PASS";
+  }
+  {
+    assert(longestPalindromicSubstring("a") == "a");
+    cout << "TEST 4 PASS";
+  }
+  {
+    assert(longestPalindromicSubstring("aaaaabbbbbbb") == "bbbbbbb");
+    cout << "TEST 5 PASS";
+  }
 }
+
 
