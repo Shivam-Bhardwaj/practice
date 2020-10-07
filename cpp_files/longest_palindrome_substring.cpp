@@ -11,34 +11,33 @@
 
 using namespace std;
 
-vector<int> helper(const string &str, int left, int right) {
-  while (left >=0  && right < str.length()){
-    if (str.at(left)!=str.at(right)){
+vector<int> helper(const string str, int left, int right){
+  while(left >=0 && right < str.length()){
+    if(str.at(left)!= str.at(right)){
+      // return vector<int>{left+1, right};
       break;
-    }else{
-      left--;
-      right++;
     }
+    left--;
+    right++;
+
   }
   return vector<int>{left+1, right};
 }
 
-
 string longestPalindromicSubstring(string str) {
   // Write your code here.
-  vector<int> result{0, 1};
+  vector<int> result(0, 1);
+  for(int i = 1; i < str.length(); i++){
+    vector<int> odd = helper(str, i-1, i+1);
+    vector<int> even = helper(str, i-1, i);
 
-  for (int i = 1; i < str.length(); ++i) {
-    vector<int> even = helper(str, i - 1, i);
-    vector<int> odd = helper(str, i - 1, i + 1);
-    vector<int> current_max = (even.at(1) - even.at(0)) > (odd.at(1) - odd.at(0)) ?
-                              even : odd;
-    if(current_max.at(1) - current_max.at(0) > result.at(1) -result.at(0)){
-      result = current_max;
-    }
+    int odd_length = odd.at(1) - odd.at(0);
+    int even_length = even.at(1) - even.at(0);
+    vector<int> current_length = odd_length > even_length?odd:even;
+    result = current_length.at(1) - current_length.at(0) > result.at(1) - result.at(0)?
+             current_length:result;
   }
-  string palindrome = str.substr(result.at(0), (result.at(1) - result.at(0)));
-  return palindrome;
+  return str.substr(result.at(0), result.at(1) - result.at(0));
 }
 
 int main() {
